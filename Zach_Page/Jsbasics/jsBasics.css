@@ -1,0 +1,58 @@
+body{
+  background-color: navy;
+  padding: 10px;
+}
+div h1{
+  background-color: red;
+  color: grey;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  margin-right: 10px;
+}
+#navbar{
+  height: 350px;
+  width: 175px;
+  background-color: teal;
+  display: inline-block;
+  margin-right: 10px;
+  top: 200px;
+  vertical-align: top;
+  border-radius: 15px;
+  color: cyan;
+}
+#navbar ul{
+  padding: 15px;
+}
+#navbar a{
+  color: cyan;
+}
+
+#content{
+  color: grey;
+  background-color: black;
+  height: 550px;
+  width: 1655px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  left: 25px;
+}
+#content ul {
+  line-height: 120%;
+}
+#helpLink{
+  background-color: grey;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+span{
+  text-decoration: underline;
+  color: cyan;
+}
