@@ -1,0 +1,153 @@
+body {
+  background-color: navy;
+  font-family: sans-serif;
+}
+
+#header {
+  display: inline-block;
+
+
+}
+#header img {
+  display: inline;
+  margin-right: 999px;
+}
+#header  form {
+  display: inline-block;
+  background-color: grey;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+}
+#header p {
+  color: white;
+}
+#header span {
+  color: black;
+}
+p a {
+  color: yellow;
+}
+#header p {
+  padding-left: 100px;
+}
+form input {
+  padding: 10px;
+}
+div div {
+  display: inline-block;
+
+}
+ul{
+ display: inline-block;
+
+}
+ul li {
+  margin-left: 10%;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline;
+   text-decoration: none;
+}
+#navbar {
+  background-color: cornflowerblue ;
+  padding: 10px;
+  width: 90%;
+  margin-left:5%;
+  border-radius: 7px;
+  margin-bottom: 25px;
+
+}
+#navbar li a {
+
+}
+
+#main {
+  display: inline-block;
+  color: white;
+  height: 450px;
+}
+#links {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+
+}
+#links ul li{
+  display: block;
+  margin-left:250px;
+  line-height: 200%;
+}
+
+#links a {
+  color: white;
+}
+
+#content {
+  width: 60%;
+  display: inline-block;
+  margin-left: 10%;
+  text-align: center;
+}
+#content h3 {
+  color: yellow;
+  margin-left: 10%;
+
+}
+#content h4{
+  margin-left: 10%;
+
+}
+
+#blurb {
+  background-color: white;
+  margin-bottom: 65px;
+  height: 325px;
+}
+#blurb ul li{
+    color: aqua;
+    display: block;
+ }
+
+#blurb hr {
+   border-color: blue;
+   border-width: 2px;
+ }
+#blurb h4{
+  margin: 0px;
+}
+#blurbOne {
+  width: 25%;
+  display: inline-block;
+  margin-left: 25%;
+  text-align: center;
+  vertical-align: top;
+ }
+
+#blurbTwo {
+  width: 25%;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+
+}
+#blurbTwo p span {
+  text-decoration: underline;
+  color: aqua;
+
+}
+
+#footer {
+  margin-left: 30%;
+
+}
+#footer a{
+
+  margin-left: 5%;
+  color: darkgrey;
+
+}
+#footer p {
+  padding-left: 300px;
+}
