@@ -1,0 +1,18 @@
+cd Desktop/
+mkdir test
+cd test
+touch index.html styles.css commands.txt
+ls
+cp index.html index_2.html
+ls
+rm styles.css 
+cd ..
+mkdir destination
+ls
+mv test/index_2.html destination/
+ls test/
+ls destination/
+rm -rf destination/
+ls
+rm -rf test/
+tail ~/.bash_history 

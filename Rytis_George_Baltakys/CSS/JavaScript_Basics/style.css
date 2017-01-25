@@ -1,0 +1,65 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: rgb(29, 52, 92);
+	color: rgb(195, 214, 235);
+}
+
+a {
+	color: rgb(195, 214, 235);
+}
+
+ul {
+	padding-left: 20px;
+}
+
+p {
+	margin: 10px 0px;
+}
+
+#highlight {
+	color: rgb(133, 145, 255);
+}
+
+#javascript_list li {
+	margin: 10px 0px;
+}
+
+#wrapper {
+	margin: 20px;
+	width: 1024px;
+}
+
+#header {
+	background-color: rgb(204, 50, 58);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#navigation {
+	background-color: rgb(46, 125, 139);
+	display: inline-block;
+	border-radius: 20px;
+	padding: 25px;
+	margin-right: 20px;
+}
+
+#main_content {
+	background-color: rgb(14, 24, 33);
+	display: inline-block;
+	width: 70%;
+	border-radius: 20px;
+	padding: 25px;
+	vertical-align: top;
+}
+
+#footer {
+	background-color: rgb(94, 102, 114);
+	border-radius: 20px;
+	padding: 25px;
+	margin-top: 20px;
+}

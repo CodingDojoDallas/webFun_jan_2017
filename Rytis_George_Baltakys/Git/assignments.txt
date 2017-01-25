@@ -1,0 +1,69 @@
+rytis DojoAssignments $ tree
+.
+├── MEAN
+│   └── about.txt
+├── Python
+│   └── about.txt
+├── Ruby
+│   └── about.txt
+├── WebFundamentals
+│   ├── CSS
+│   │   └── about.txt
+│   ├── Git
+│   │   └── about.txt
+│   ├── HTML
+│   │   ├── Fake\ blog.html
+│   │   ├── example.html
+│   │   ├── hello_world.html
+│   │   ├── indentation\ practice\ 2.html
+│   │   ├── indentation\ practice.html
+│   │   ├── index.html
+│   │   └── registration\ form.html
+│   ├── Javascript
+│   │   └── about.txt
+│   └── about.txt
+└── webFun_jan_2017
+    └── Rytis_George_Baltakys
+        ├── deleteme.txt
+        └── git
+            └── commands.txt
+
+
+
+rytis DojoAssignments $ ls -R
+MEAN		Python		Ruby		WebFundamentals	webFun_jan_2017
+
+./MEAN:
+about.txt
+
+./Python:
+about.txt
+
+./Ruby:
+about.txt
+
+./WebFundamentals:
+CSS		Git		HTML		Javascript	about.txt
+
+./WebFundamentals/CSS:
+about.txt
+
+./WebFundamentals/Git:
+about.txt	commands.txt
+
+./WebFundamentals/HTML:
+Fake blog.html			indentation practice 2.html	registration form.html
+example.html			indentation practice.html
+hello_world.html		index.html
+
+./WebFundamentals/Javascript:
+about.txt
+
+./webFun_jan_2017:
+Rytis_George_Baltakys
+
+./webFun_jan_2017/Rytis_George_Baltakys:
+deleteme.txt	git
+
+./webFun_jan_2017/Rytis_George_Baltakys/git:
+commands.txt
