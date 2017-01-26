@@ -1,0 +1,226 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid red;
+}
+
+body {
+	width: 970px;
+	margin: -15px 5px 5px 5px;
+	font-family: sans-serif;
+}
+
+a {
+	color: #0097AC;
+	text-decoration: none;
+}
+
+h3 {
+	color: #00679B;
+}
+
+a:visited {
+	color: #0097AC;
+}
+
+p {
+	padding: 5px 0;
+}
+
+.highlight {
+	color: #00679B;
+}
+
+.small_text {
+	font-size: 0.65em;
+	padding-left: 5px;
+}
+
+.large_text {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #00C2DC;
+}
+
+#logo_img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 25px;
+}
+
+#logo_text {
+	display: inline-block;
+	font-size: 3.2em;
+	font-weight: 400;
+	vertical-align: top;
+	margin-top: 43px;
+}
+
+#tagline {
+	font-size: 2em;
+	font-weight: 400;
+	color: white;
+	padding: 12px;
+	background: linear-gradient(to bottom, #006499, #4685AA, #00679B);
+}
+
+#main_section {
+	background: linear-gradient(to bottom, #E8E6E5 0%, #fff 15%);
+}
+
+#side_panel {
+	width: 200px;
+	padding: 20px 4px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.important_text {
+	color: #E20015;
+}
+
+.highlight {
+	color: #00619C;
+}
+
+#side_panel h3 {
+	font-size: 1em;
+}
+
+#side_panel p {
+	font-size: 0.85em;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.button {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-size: 0.95em;
+	padding: 7px;
+	width: 90%;
+	border-radius: 7px;
+	margin-top: 5px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+#button_watch {
+	margin-top: 17px;
+	background: linear-gradient(to bottom, #5499BF, #00699D);
+}
+
+#button_more {
+	background: linear-gradient(to bottom, #F1A95E, #F5700F);
+}
+
+#divider {
+	border-top: 1px solid #aaa;
+	margin: 24px 0;
+}
+
+#advertisement {
+	background-image: url("images/ad_background.png");
+	height: 300px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+#advertisement p {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-size: 1.5em;
+	padding: 14px 5px 0 5px;
+}
+
+#advertisement img {
+	width: 43%;
+	height: 43%;
+	display: block;
+  margin: auto; 
+}
+
+#button_ad {
+	background: linear-gradient(to bottom, #67D1DE, #00C6E0);
+	width: 75%;
+	display: block;
+	margin: 10px auto;
+}
+
+#right_panel {
+	display: inline-block;
+	width: 700px;
+	margin-left: 35px;
+}
+
+#house {
+	margin-top: 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#house img {
+	width: 20px;
+	height: 20px;
+}
+
+#phone {
+	display: inline-block;
+	margin-left: 430px;
+}
+
+#phone img {
+	width: 40px;
+	height: 40px;
+}
+
+#phone ul {
+	display: inline-block;
+	list-style: none;
+}
+
+#horizontal {
+	border-top: 1px solid black;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.list_indent {
+	margin-left: 40px;
+}
+
+.list_indent li {
+	margin: 6px 0;
+}
+
+#clientserver_img {
+	width: 40%;
+	height: 40%;
+	margin: auto;
+	display: block;
+	margin-bottom: 15px;
+}
+
+#footer {
+	border: 5px solid #0089DB;
+	box-shadow: 2px 2px 2px gray;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#footer img {
+	width: 17%;
+	height: 17%;
+}
+
+#footer div, #footer h3, #footer p {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#footer div {
+	width:  82%;
+}
