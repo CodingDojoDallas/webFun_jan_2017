@@ -1,0 +1,75 @@
+<doctype! html>
+<html>
+  <head>
+    <title>Internet</title>
+    <link rel="stylesheet" type="text/css" href="itstyle.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img src="globe.png" alt="Globe" Height="85px" Width="85px">
+        <p class="header1">The Inter<span class="blue">net</span></p>
+        <p class="header2">The World Wide Web</p>
+      </div>
+
+      <div id="maincontent">
+
+        <div id="left">
+          <div id="source">
+            <h4> So, what's an <span class=red>Internet</span>?</h4>
+            <h5>An <span class="blue">Inter</span>connected <span class="blue">Net</span>work of computers all around the world! </h5>
+            <form><input type="submit"  class="button1" value="WATCH A VIDEO"></form>
+            <form><input type="submit"  class="button2" value="MORE RESOURCES"></form>
+          </div>
+          <div id="ninja">
+            <p>Reinvent your career in just 14 weeks</p>
+            <img src="ninja.png" alt="ninja" Height="150px" Width="100px">
+            <form><input type="submit"  class="button3" value="Learn More.."></form>
+          </div>
+        </div>
+
+        <div id="right">
+          <div id=contact>
+            <div id="home">
+              <img src='home.png' alt="Home" Height="20px" width="20px">
+              <h4><span class="blue">DNS</span></h4>
+            </div>
+            <div id="phone">
+              <img src="phone.png" alt="phone" Height="40px" Width="40px">
+              <ul>
+                <li>Mon-Fri 9 a.m.-5 p.m. (EST)</li>
+                <li id="bluenum">855.967.3787</li>
+                <li>International + 1.617.963.0555</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="paragraph">
+            <h2 class="blue">Clients and Servers</h2>
+            <p>Computers connected to the <a href="web.html">Web</a> are called <span class="bold">clients</span> and <span class="bold">servers</span>.</p>
+            <ul>
+              <li><a href="client.html">Clients</a> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or yor phone connected to your mobile network) and <a href="Web_access.html">Web-accessing software</a> avaliable on those devices (usually a web browser like Firefox or Chrome).</li>
+              <li><a href="servers.html">Servers</a> are computers that store <a href="webpages.html">webpages</a>, <a href="sites.html">sites</a>, or <a href="apps.html">apps</a>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's we browser.</li>
+            </ul>
+            <img src="client_server.jpg" id="mid" alt="Client and Server" height="100px" width="280px">
+            <h2 class="blue">So what Actually Happens?</h2>
+            <ol>
+              <li>The browser goes to the <a href="DNS_Server">DNS server</a> and finds the real address of the <a href="server.html">server</a> that the wesite lives on.</li>
+              <li>The browser sends aan <a href="HTTP_Request.html">HTTP request</a> message to the server asking it to send a copy of the website to the client.</li>
+              <li>If the server approves the client's request, the server sends the client a <a href="200_OK">"200 OK" message</a>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+              <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+            </ol>
+          <div id="big3">
+            <img src="html.png" alt="Big 3" height="100px" width="100px">
+            <div id="bigp">
+              <h3 class="blue">The Big 3 - HTML, CSS, JavaScript</h3>
+              <p>While the server can process information in many different languages, the files that they serve to the client are always going to be some combination of HTML, CSS, and JavaScript!</p>
+              <p>Learn more about the Big 3 <a href="here.html">here!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
