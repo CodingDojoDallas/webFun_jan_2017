@@ -40,9 +40,11 @@ h3{font-size:20px;
 p{margin-top:0px;
 	}
 a{color:#6BDDE7;}
+.purple{color:purple;}
 .SB{font-size:13px;
 	text-decoration:underline;
 	color:#6BDDE7;}
+#sidebar ul li{color:#6BDDE7;}
 #info{display:inline;
 padding-left:20px;
 vertical-align:middle;
