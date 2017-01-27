@@ -1,0 +1,12 @@
+C:\Users\Kyle Stainsby\Desktop>cd DojoAssignments
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git init
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git add .
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git commit -m "initial upload of DojoAssignments folder"
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git remote add origin https://github.com/kss11b/DojoAssignments.git
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git push -u origin master
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>copy NUL readMe.md
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git log
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git add readMe.md
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git diff --stat ed974453c357bfcb9a96ec7545308b9f76f2e264
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git commit -m "readMe.md added to repository"
+C:\Users\Kyle Stainsby\Desktop\DojoAssignments>git push -u origin master
