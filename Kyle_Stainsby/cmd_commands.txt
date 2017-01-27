@@ -1,0 +1,27 @@
+C:\Users\Kyle Stainsby>dir
+C:\Users\Kyle Stainsby>cd Desktop
+C:\Users\Kyle Stainsby\Desktop>md test
+C:\Users\Kyle Stainsby\Desktop>dir
+C:\Users\Kyle Stainsby\Desktop>cd test
+C:\Users\Kyle Stainsby\Desktop\test>copy NUL styles.css
+C:\Users\Kyle Stainsby\Desktop\test>copy NUL commands.txt
+C:\Users\Kyle Stainsby\Desktop\test>copy NUL index.html 
+C:\Users\Kyle Stainsby\Desktop\test>copy index.html index_2.html
+C:\Users\Kyle Stainsby\Desktop\test>del styles.css
+C:\Users\Kyle Stainsby\Desktop\test>cd/
+C:\>cd Users
+C:\Users>cd Kyle Stainsby
+C:\Users\Kyle Stainsby>cd Desktop
+C:\Users\Kyle Stainsby\Desktop>md Destination
+C:\Users\Kyle Stainsby\Desktop>test
+C:\Users\Kyle Stainsby\Desktop>move "index_2.html" c:\Users\"Kyle Stainsby"\Desktop\Destination\
+C:\Users\Kyle Stainsby\Desktop\test>dir
+C:\Users\Kyle Stainsby\Desktop\test>cd..
+C:\Users\Kyle Stainsby\Desktop>cd test
+C:\Users\Kyle Stainsby\Desktop\test>dir
+C:\Users\Kyle Stainsby\Desktop\test>cd..
+C:\Users\Kyle Stainsby\Desktop>rd /s Destination
+Destination, Are you sure (Y/N)? y
+C:\Users\Kyle Stainsby\Desktop>dir
+C:\Users\Kyle Stainsby\Desktop>cd test
+C:\Users\Kyle Stainsby\Desktop\test>commands.txt
