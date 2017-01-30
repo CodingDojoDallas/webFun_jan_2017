@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Functions</title>
+    <style>
+      .selected{
+        color: red;
+      }
+      em{
+        color: blue;
+        font-weight: bold;
+      }
+      #meaning{
+        color: red;
+      }
+      #coloring{
+        color: purple;
+      }
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#button1").click(function(){
+          alert("Hello!");
+        });
+        $("#hide").click(function(){
+          $("p").hide();
+        });
+        $("#show").click(function(){
+          $("p").show();
+        });
+        $("#clickdown").click(function(){
+          $("#icon").slideDown("slow",function(){
+          });
+        });
+        $("#clickup").click(function(){
+          $("#icon").slideUp("slow",function(){
+          });
+        });
+        $("#clicktog").click(function(){
+          $("#icon").slideToggle("slow",function(){
+          });
+        });
+        $("#fadeout").click(function(){
+          $("#icon").fadeOut("slow",function(){
+          });
+        });
+        $("#fadein").click(function(){
+          $("#icon").fadeIn("slow",function(){
+          });
+        });
+        $("#addclass").addClass("selected");
+        $("#before_p").before("<p>Often </p>");
+        $("#after_p").after("<p> future.</p>");
+        $("#addappend").click(function(){
+          $("#append_p").append("Thank you for visting!");
+        });
+        $("#repeat").html("This was replaced");
+        var title = $("em").attr("title");
+        $("#meaning").text(title);
+        $("#attrtest")
+          .keyup(function(){
+            var value = $(this).val();
+            $("#inputin").text(value);
+          })
+          .keyup();
+        var str = $("#texttest1").text();
+        $("#texttest2").html(str);
+        $("#datatest").data("test", {first: 3, last: "eighteen"});
+        $("span:last").text($("#datatest").data("test").last);
+      });
+    </script>
+  </head>
+
+  <body>
+    <button id="button1">Click for a greeting!</button>
+    <p>This paragraph is an example for the show and hide.</p>
+    <button id="hide">Hide the paragraph!</button>
+    <button id="show">Show the paragraph!</button>
+    <div id="clickup">Click Up</div>
+    <img id="icon" src="icon.png" alt="" width="100" height="100">
+    <div id="clickdown">Click Down</div>
+    <div id="clicktog">Click Toggle</div>
+    <div id="fadeout">Click to Fade Out</div>
+    <div id="fadein">Click to Fade In</div>
+    <p id="addclass">We like HIGHLIGHT!</p>
+    <p id="before_p">we have to look back,</p>
+    <p id="after_p">To appreaciate the</p>
+    <p id="append_p">I would like to say: </p>
+    <div id="addappend">Click</div>
+    <div id="repeat">This</div>
+    <p>We are often <em title="flip-floppy, quick to change">capricious</em> people...</p>
+    Meaning:<div id=meaning></div>
+    <form>
+      <input id="attrtest" type="text" value="Recorded Value">
+      <p id="inputin"></p>
+    </form>
+    <p id="texttest1"><span id=coloring>TEST</span> Paragraph</p>
+    <p id="texttest2"></p>
+    <div id="datatest">
+      This exercise takes a few hours with about <span></span> examples.
+    </div>
+  </body>
+</html>
