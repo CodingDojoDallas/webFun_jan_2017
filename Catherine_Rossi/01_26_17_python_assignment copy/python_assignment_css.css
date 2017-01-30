@@ -1,0 +1,66 @@
+*{
+	font-family: arial;
+	/*background-color: blue;*/
+}
+.wrapper {
+	width: 970px;
+	background-color: white;
+	
+}
+.header {
+	background-color: blue;
+
+}
+.logo {
+	float: left; 
+	width: 600px;
+
+}
+.search {
+	width:370px;
+	float: right;
+}
+.search p{
+	color: white;
+}
+.search a {
+	color:yellow;
+}
+.menu {
+	background-color: lightblue;
+	color: white;
+	font-size: 24px;
+	padding: 7px;
+	
+}
+.menu li {
+	display:inline;
+}
+
+.container {
+	width: 970px;
+}
+.sidebar {
+	float: left;
+	width: 300px;
+}
+.main {
+	float: right;	
+	width: 670px;
+}
+.clear {
+	clear: both;
+}
+.upper_footer{
+
+}
+
+.footer{
+	background-color: lightblue;
+	color: blue;
+	padding: 20px;
+	
+}
+.footer li{
+	display:inline;
+}
