@@ -22,7 +22,7 @@ function birthdayCountdown(){
         console.log(day + " days until my birthday. Such a long time....:(");
         }
         else{
-          daday = 365 - today;
+          day = 365 - today;
           console.log(day + " days until my birthday. Such a very long time....:(");
         }
       }

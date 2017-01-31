@@ -4,7 +4,7 @@ function printRange(x,y,z){
   console.log("you have your start and end points backwards.");
   }
   else{
-  for(var i = x; i <= y; i += z){
+  for(var i = x; i < y; i += z){
     console.log(i);
   }
   }
