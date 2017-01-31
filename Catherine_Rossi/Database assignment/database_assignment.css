@@ -1,0 +1,61 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 1000px;
+	background-color: pink
+
+}
+.header {
+	width: 1000px;
+	display: inline-block;
+	
+}
+.headerlogo {
+	width:500px;
+	display: inline-block;
+}
+.headertext {
+	width: 480px;
+	display: inline-block;
+}
+.links {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.links li {
+	display: inline;
+	color: blue;
+	padding: 15px;
+	font-size: 18px;
+
+}
+.logomain{
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	/*margin-top: 0px;*/
+
+}
+.textlogo {
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	margin: 10px;
+	border: 3px solid black;
+}
+.containers{
+
+}
+.container {
+	display: inline-block;
+	width: 220px;
+	height: 400px;
+	margin: 10px;
+	border: 3px solid black;
+
+}
