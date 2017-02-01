@@ -1,11 +1,11 @@
 function slots(quarters){
-    var playerN =Math.floor((Math.random() * 100)+1);
-    var machineN =Math.floor((Math.random() * 100)+1);
+    var playerN =5; //Math.floor((Math.+random() * 100)1);
+    var machineN =5; //Math.floor((Math.random() * 100)+1);
     
   
     if(playerN === machineN){
       i = i + Math.floor((Math.random() * 100)+50);
-	    console.log(i);
+	    console.log("you have won " +i+ "quarters");
   }
      else if(i < 1){
       console.log("kick rocks");
