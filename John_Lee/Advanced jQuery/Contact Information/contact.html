@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Contact Cards</title>
+    <link rel="stylesheet" type="text/css" href="ccstyle.css">
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type='text/javascript'>
+      $(document).ready(function(){
+        $(document).on('click', 'button',function(){
+          var first_name = $('input[name=first_name]').val()
+          var last_name = $('input[name=last_name]').val()
+          var description = $('input[name=descrip]').val()
+          var html_str = '';
+          html_str += '<div>';
+          html_str +=   '<h2>'+first_name +' '+ last_name+'</h2>';
+          html_str +=   '<h2>'+'Click for description!'+'</h2>';
+          html_str +=   '<h3>'+ description +'</h3>';
+          html_str += '</div>';
+          $('#right').append(html_str);
+          $('#right').children().click(function(){
+           $('h2').hide("fast",function(){
+           });
+           $('h3').show("fast",function(){
+           });
+          });
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id='wrapper'>
+
+      <div id="left">
+        <form id='myForm'>
+          <p>First Name: <input type='text' name='first_name'></p>
+          <p>Last Name: <input type='text' name='last_name'></p>
+          <p>Description: <input type='text' name='descrip'></p>
+        </form>
+        <button>Add User</button>
+      </div>
+
+      <div id='right'>
+      </div>
+
+    </div>
+  </body>
+
+</html>

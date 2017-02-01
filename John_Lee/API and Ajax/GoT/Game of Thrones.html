@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Game of Thrones</title>
+    <style>
+      body{
+        background-color: grey;
+      }
+      #icons{
+        width:auto;
+        height:auto;
+        margin:auto;
+      }
+      #details{
+        width: 400px;
+        height: 300px;
+        margin-left: 395px;
+        background-color: white;
+        border: solid 3px black;
+      }
+    </style>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type='text/javascript'>
+      var baseurl = "http://anapioficeandfire.com/api/houses/";
+      $(document).ready(function() {
+        $('img').click(function() {
+          var string = $(this).attr('src')
+          var target = string.split('.')
+          var id = target[0]
+          if(id==='stark'){
+              id=362;
+            }
+          if(id==='baratheon'){
+              id=355;
+            }
+          if(id==='targaryen'){
+              id=342;
+            }
+          if(id==='lannister'){
+              id=302;
+            }
+          $.get(baseurl+id,function(res){
+            $('#details').html("<h2>" +"Name: " + res.name + "</h2>");
+            $('#details').append("<h2>" +"Words: " + res.words + "</h2>");
+            $('#details').append("<h2>" +"Region: " + res.region + "</h2>");
+            $('#details').append("<h2>" +"Titles: " + res.titles + "</h2>");
+          }, 'json');
+
+          return false;
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id='icons'>
+      <img src='baratheon.png' alt='baratheon' width="300" height="200">
+      <img src='targaryen.jpg' alt='targaryen' width="300" height="200">
+      <img src='lannister.jpg' alt='lannister' width="300" height="200">
+      <img src='stark.jpg' alt='stark' width="300" height="200">
+    </div>
+    <div id='details'>
+    </div>
+  </body>
+</html>
