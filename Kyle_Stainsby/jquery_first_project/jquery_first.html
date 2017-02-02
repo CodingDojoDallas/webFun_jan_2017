@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="jquery_first.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+				$('.top_bar input' ).click(function(){
+					$('.top_bar p').addClass('red');
+				})
+				$('.mid_bar input' ).click(function(){
+					$('.mid_bar p').slideToggle('slow');
+				})
+				$('.mid_bar input' ).click(function(){
+					$('.mid_bar h1').hide('slow');
+				})
+				$('.top_bar input' ).click(function(){
+					$('.mid_bar h1').show('slow');
+				})
+				$('.low_bar input' ).click(function(){
+					$('.top_bar h1').fadeOut('slow');
+				})
+				$('.low_bar h1 a' ).click(function(){
+					$('.top_bar h1').fadeIn('slow');
+				})
+				$('.top_bar h1 a' ).click(function(){
+					$('.top_bar h1').slideUp('slow');
+				})
+				$('.low_bar input' ).click(function(){
+					$('.low_bar p').append("<p>appended new text</p>");
+				})
+
+});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<div class="top_bar">
+			<h1><a href="#">AddClass</a></h1>
+			<input type="submit" value="AddClass">
+			<p class="text_top">Click the button to add 'red' to this paragraph</p>
+		</div>
+		<div class="mid_bar">
+			<h1><a href="#">Slidetoggle</a></h1>
+			<input type="submit" value="Slidetoggle">
+			<p class="text_mid">Click the button to slidetoggle a hidden image</p>
+		</div>
+		<div class="low_bar">
+			<h1><a href="#">Append</a></h1>
+			<input type="submit" value="Append">
+			<p class="text_low">Click the button to append a new paragraph</p>
+		</div>
+		<div class="lower_bar">
+			<h1><a href="#">More Stuff</a></h1>
+			<input type="submit" value="AddClass">
+			<p class="text_top">Click me for more fun</p>
+		</div>
+	</div>
+
+</body>
+</html>

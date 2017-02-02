@@ -1,0 +1,194 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Pokedex.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var base_ur='http://pokeapi.co/api/v1/pokemon/';
+			$('img').click(function(){
+				var string = $(this).attr('src')
+				var arr = string.split('/')
+				var target = arr[arr.length - 1].split('.')
+				var id = target[0]
+				console.log(id)
+
+			$.get(base_ur + id +"/" , function(res){
+				console.log('res')
+				$('.initial').html('<h2>' + res.name + '</h2>');
+				$('.initial').append('<img class="new_image" src="http://pokeapi.co/media/img/' + id + '.png">');
+				$('.initial').append('<h3>' + 'Types' + '</h3>');
+				for(var i = 0; i < res.types.length; i++)
+					{
+				$('.initial').append('<p>' + res.types[i].name + '</p>');
+					}
+				$('.initial').append('<h3>' + 'Height' + '</h3>');
+				$('.initial').append('<p>' + res.height/10 + "m" + '</p>');
+				$('.initial').append('<h3>' + 'Weight' + '</h3>');
+				$('.initial').append('<p>' + res.weight/10 + 'kg' + '</p>');
+			}, "json")
+		});
+	});
+			</script>
+		<div class="wrapper"><!--
+		--><div class="title_bar">
+				<img class="title_image" src="pokemon-logo.jpg" alt="Could Not Load Image">
+			</div><!--
+			--><div class="pokemon_images">
+				<img src=http://pokeapi.co/media/img/1.png>
+				<img src=http://pokeapi.co/media/img/2.png>
+				<img src=http://pokeapi.co/media/img/3.png>
+				<img src=http://pokeapi.co/media/img/4.png>
+				<img src=http://pokeapi.co/media/img/5.png>
+				<img src=http://pokeapi.co/media/img/6.png>
+				<img src=http://pokeapi.co/media/img/7.png>
+				<img src=http://pokeapi.co/media/img/8.png>
+				<img src=http://pokeapi.co/media/img/9.png>
+				<img src=http://pokeapi.co/media/img/10.png>
+				<img src=http://pokeapi.co/media/img/11.png>
+				<img src=http://pokeapi.co/media/img/12.png>
+				<img src=http://pokeapi.co/media/img/13.png>
+				<img src=http://pokeapi.co/media/img/14.png>
+				<img src=http://pokeapi.co/media/img/15.png>
+				<img src=http://pokeapi.co/media/img/16.png>
+				<img src=http://pokeapi.co/media/img/17.png>
+				<img src=http://pokeapi.co/media/img/18.png>
+				<img src=http://pokeapi.co/media/img/19.png>
+				<img src=http://pokeapi.co/media/img/20.png>
+				<img src=http://pokeapi.co/media/img/21.png>
+				<img src=http://pokeapi.co/media/img/22.png>
+				<img src=http://pokeapi.co/media/img/23.png>
+				<img src=http://pokeapi.co/media/img/24.png>
+				<img src=http://pokeapi.co/media/img/25.png>
+				<img src=http://pokeapi.co/media/img/27.png>
+				<img src=http://pokeapi.co/media/img/30.png>
+				<img src=http://pokeapi.co/media/img/31.png>
+				<img src=http://pokeapi.co/media/img/32.png>
+				<img src=http://pokeapi.co/media/img/33.png>
+				<img src=http://pokeapi.co/media/img/34.png>
+				<img src=http://pokeapi.co/media/img/35.png>
+				<img src=http://pokeapi.co/media/img/36.png>
+				<img src=http://pokeapi.co/media/img/37.png>
+				<img src=http://pokeapi.co/media/img/38.png>
+				<img src=http://pokeapi.co/media/img/39.png>
+				<img src=http://pokeapi.co/media/img/40.png>
+				<img src=http://pokeapi.co/media/img/41.png>
+				<img src=http://pokeapi.co/media/img/42.png>
+				<img src=http://pokeapi.co/media/img/43.png>
+				<img src=http://pokeapi.co/media/img/44.png>
+				<img src=http://pokeapi.co/media/img/45.png>
+				<img src=http://pokeapi.co/media/img/46.png>
+				<img src=http://pokeapi.co/media/img/47.png>
+				<img src=http://pokeapi.co/media/img/48.png>
+				<img src=http://pokeapi.co/media/img/49.png>
+				<img src=http://pokeapi.co/media/img/50.png>
+				<img src=http://pokeapi.co/media/img/51.png>
+				<img src=http://pokeapi.co/media/img/52.png>
+				<img src=http://pokeapi.co/media/img/53.png>
+				<img src=http://pokeapi.co/media/img/54.png>
+				<img src=http://pokeapi.co/media/img/55.png>
+				<img src=http://pokeapi.co/media/img/56.png>
+				<img src=http://pokeapi.co/media/img/57.png>
+				<img src=http://pokeapi.co/media/img/58.png>
+				<img src=http://pokeapi.co/media/img/59.png>
+				<img src=http://pokeapi.co/media/img/60.png>
+				<img src=http://pokeapi.co/media/img/61.png>
+				<img src=http://pokeapi.co/media/img/62.png>
+				<img src=http://pokeapi.co/media/img/63.png>
+				<img src=http://pokeapi.co/media/img/64.png>
+				<img src=http://pokeapi.co/media/img/65.png>
+				<img src=http://pokeapi.co/media/img/66.png>
+				<img src=http://pokeapi.co/media/img/67.png>
+				<img src=http://pokeapi.co/media/img/68.png>
+				<img src=http://pokeapi.co/media/img/69.png>
+				<img src=http://pokeapi.co/media/img/70.png>
+				<img src=http://pokeapi.co/media/img/71.png>
+				<img src=http://pokeapi.co/media/img/72.png>
+				<img src=http://pokeapi.co/media/img/73.png>
+				<img src=http://pokeapi.co/media/img/74.png>
+				<img src=http://pokeapi.co/media/img/75.png>
+				<img src=http://pokeapi.co/media/img/76.png>
+				<img src=http://pokeapi.co/media/img/77.png>
+				<img src=http://pokeapi.co/media/img/78.png>
+				<img src=http://pokeapi.co/media/img/79.png>
+				<img src=http://pokeapi.co/media/img/80.png>
+				<img src=http://pokeapi.co/media/img/81.png>
+				<img src=http://pokeapi.co/media/img/82.png>
+				<img src=http://pokeapi.co/media/img/83.png>
+				<img src=http://pokeapi.co/media/img/84.png>
+				<img src=http://pokeapi.co/media/img/85.png>
+				<img src=http://pokeapi.co/media/img/86.png>
+				<img src=http://pokeapi.co/media/img/87.png>
+				<img src=http://pokeapi.co/media/img/88.png>
+				<img src=http://pokeapi.co/media/img/89.png>
+				<img src=http://pokeapi.co/media/img/90.png>
+				<img src=http://pokeapi.co/media/img/91.png>
+				<img src=http://pokeapi.co/media/img/92.png>
+				<img src=http://pokeapi.co/media/img/93.png>
+				<img src=http://pokeapi.co/media/img/94.png>
+				<img src=http://pokeapi.co/media/img/95.png>
+				<img src=http://pokeapi.co/media/img/96.png>
+				<img src=http://pokeapi.co/media/img/97.png>
+				<img src=http://pokeapi.co/media/img/98.png>
+				<img src=http://pokeapi.co/media/img/99.png>
+				<img src=http://pokeapi.co/media/img/100.png>
+				<img src=http://pokeapi.co/media/img/101.png>
+				<img src=http://pokeapi.co/media/img/102.png>
+				<img src=http://pokeapi.co/media/img/103.png>
+				<img src=http://pokeapi.co/media/img/104.png>
+				<img src=http://pokeapi.co/media/img/105.png>
+				<img src=http://pokeapi.co/media/img/106.png>
+				<img src=http://pokeapi.co/media/img/107.png>
+				<img src=http://pokeapi.co/media/img/108.png>
+				<img src=http://pokeapi.co/media/img/109.png>
+				<img src=http://pokeapi.co/media/img/110.png>
+				<img src=http://pokeapi.co/media/img/111.png>
+				<img src=http://pokeapi.co/media/img/112.png>
+				<img src=http://pokeapi.co/media/img/113.png>
+				<img src=http://pokeapi.co/media/img/114.png>
+				<img src=http://pokeapi.co/media/img/115.png>
+				<img src=http://pokeapi.co/media/img/116.png>
+				<img src=http://pokeapi.co/media/img/117.png>
+				<img src=http://pokeapi.co/media/img/118.png>
+				<img src=http://pokeapi.co/media/img/119.png>
+				<img src=http://pokeapi.co/media/img/120.png>
+				<img src=http://pokeapi.co/media/img/121.png>
+				<img src=http://pokeapi.co/media/img/122.png>
+				<img src=http://pokeapi.co/media/img/123.png>
+				<img src=http://pokeapi.co/media/img/124.png>
+				<img src=http://pokeapi.co/media/img/125.png>
+				<img src=http://pokeapi.co/media/img/126.png>
+				<img src=http://pokeapi.co/media/img/127.png>
+				<img src=http://pokeapi.co/media/img/128.png>
+				<img src=http://pokeapi.co/media/img/129.png>
+				<img src=http://pokeapi.co/media/img/130.png>
+				<img src=http://pokeapi.co/media/img/131.png>
+				<img src=http://pokeapi.co/media/img/132.png>
+				<img src=http://pokeapi.co/media/img/133.png>
+				<img src=http://pokeapi.co/media/img/134.png>
+				<img src=http://pokeapi.co/media/img/135.png>
+				<img src=http://pokeapi.co/media/img/136.png>
+				<img src=http://pokeapi.co/media/img/137.png>
+				<img src=http://pokeapi.co/media/img/138.png>
+				<img src=http://pokeapi.co/media/img/139.png>
+				<img src=http://pokeapi.co/media/img/140.png>
+				<img src=http://pokeapi.co/media/img/141.png>
+				<img src=http://pokeapi.co/media/img/142.png>
+				<img src=http://pokeapi.co/media/img/143.png>
+				<img src=http://pokeapi.co/media/img/144.png>
+				<img src=http://pokeapi.co/media/img/145.png>
+				<img src=http://pokeapi.co/media/img/146.png>
+				<img src=http://pokeapi.co/media/img/147.png>
+				<img src=http://pokeapi.co/media/img/148.png>
+				<img src=http://pokeapi.co/media/img/149.png>
+				<img src=http://pokeapi.co/media/img/150.png>
+				<img src=http://pokeapi.co/media/img/151.png>
+			</div><!--
+		--><div class="display_stats">
+			<div class="initial">
+			</div>
+		</div>
+	</div>
+	</body>
+	</html>

@@ -1,0 +1,147 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+background:white;
+}
+.wrapper{
+ width: 965px;
+ height: 1000px;
+ margin: 0 auto;
+ background:radial-gradient(#6C5866, #565074, #3C354D);
+ justify-content: center;
+ align-items:center;
+ }
+ #title_bar{
+	width:970px;
+	background:linear-gradient(#FFFFFF,#EEF0EC);
+	height:110px;
+
+ }
+ .hello_image{
+	 margin-left:10px;
+
+ }
+.title{
+	display:inline-block;
+	font-weight:bolder;
+	font-size:16pt;
+	vertical-align: top;
+	margin-left:300px;
+	margin-top:50px;
+}
+#navigation{
+
+}
+.navigation_list{
+	list-style:none;
+	border:1px solid black;
+	width:100%;
+}
+.navigation_list_items{
+	display:inline-block;
+	font-size:10pt;
+	background:white;
+	padding:8px 38.4px 8px 38.5px;
+	border-left:0px;
+
+
+	border:thin solid black;
+}
+.nava{
+	border-right:0px;
+	display:inline-block;
+	font-size:10pt;
+	background:white;
+	padding:8px 38.3px 8px 38.3px;
+
+
+}
+.box_left{
+display:inline-block;
+	width:480px;
+	height:235px;
+	background:#C0C0C0;
+	margin:15px;
+	padding:7px;
+	vertical-align: top;
+}
+.box_right{
+	width:400px;
+	height:241px;
+	background:#E7E6EE;
+	display:inline-block;
+	margin-top:15px;
+	vertical-align: top;
+	padding-bottom:7px;
+}
+.rightbtxta{
+font-size:10pt;
+font-weight:bold;
+padding-top:7px;
+padding-left:8px;
+}
+.rightbtxtb{
+font-size:9pt;
+padding-top:10px;
+padding-left:9px
+
+}
+.top_bar{
+font-size:18pt;
+padding-left:15px;
+padding-top:10px;
+height:35px;
+width:385px;
+background:linear-gradient(#C6C2C7,grey,#C6C2C7);
+}
+.b_blocka{
+	display:inline-block;
+	margin-top:10px;
+	margin-left:20px;
+	margin-right:5px;
+
+	background:red;
+	height:500px;
+	width:220px;
+	background:linear-gradient(#9BA8C2,white);
+}
+.b_block{
+	display:inline-block;
+	margin-top:20px;
+	margin-left:5px;
+	margin-right:5px;
+
+	background:red;
+	height:500px;
+	width:220px;
+	background:linear-gradient(#9BA8C2,white);
+}
+.top_bara{
+	display:inline-block;
+	background:linear-gradient(#C6C2C7,grey,#C6C2C7);
+	font-size:14pt;
+	font-weight:bolder;
+	height:35px;
+	width:207px;
+	padding-top: 9px;
+	padding-left:13px;
+
+}
+
+.b_text{
+	display:inline-block;
+	margin:10px;
+	
+}
+.bottomb{
+	display:inline-block;
+	background:blue;
+	color:white;
+	border-radius:8px;
+	width:95px;
+	height:30px;
+	margin-top:20px;
+	margin-left:100px;
+}

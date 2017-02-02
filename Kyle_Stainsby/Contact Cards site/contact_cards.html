@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="contact_cards.css">
+	<meta charset="utf-8">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$('button').click(function(){
+			$('.right_content').append(
+				"<div class='pre_flip'>" + "<h2>" + $('input[name=first_name]').val() + " " + $('input[name=last_name]').val() + '</h2>' + '<h3> Click for Description</h3>' + '</div>')
+					return false
+			});
+			$(document).on('click', 'h2', function(){
+				$(this).hide( function(){
+					$(this).replaceWith("<div class='.post_flip'>" + $('.description').val() + '</div>');
+			});
+		});
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="left_content">
+				<label>First Name<input type='text' name="first_name"></label>
+				<label>Last Name<input type='text' name='last_name'></label>
+				<p>Description</p>
+				<textarea class=description></textarea>
+				<button>Add User</button>
+		</div><!--
+	--><div class="right_content">
+
+		</div>
+	</div>
+</body>
