@@ -1,0 +1,26 @@
+#webber{
+	width:970px;
+	height:auto;
+	overflow:hidden;
+	background-color:grey;
+}
+h1{
+	margin-left:50px;
+}
+#main{
+	margin-left:50px;
+}
+img{
+	width:200px;
+	height:auto;
+	border:solid black;
+	margin:0px 5px 5px 5px;
+	}
+button{
+	width:100px;
+	height:auto;
+	font-size:16px;
+	background-color:green;
+	color:white;
+	margin:10px 0px 50px 5px;
+}

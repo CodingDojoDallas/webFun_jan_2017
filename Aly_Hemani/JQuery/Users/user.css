@@ -1,0 +1,14 @@
+#webber{
+	width:600px;
+	height:auto;
+	overflow:hidden;
+	background-color:grey;
+}
+#line{
+	width:400px;
+	height:2px;
+	background-color:black;
+}
+input, label{
+	margin:5px 5px 5px 5px;
+}

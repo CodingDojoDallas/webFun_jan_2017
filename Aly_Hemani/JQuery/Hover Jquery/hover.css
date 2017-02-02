@@ -1,0 +1,11 @@
+#webber{
+	width:970px;
+	height:auto;
+	overflow:hidden;
+	background-color:grey;
+}
+img{
+	width:220px;
+	height:auto;
+	border:solid black;
+}

@@ -1,0 +1,29 @@
+#webber{
+	width:970px;
+	background-color:grey;
+	color:black;
+	overflow:hidden;
+	height:auto;
+}
+.division{
+	width:910px;
+	border-bottom:solid black;
+	border-width:2px;
+	margin-left:30px;
+	text-align:center;
+}
+
+button{display:inline-block;
+	width:100px;
+	height:30px;}
+p{display:inline-block;
+font-size:22px;}
+.selected{
+	color:red;
+}
+img{
+	display:none;
+	margin-left:200px;
+}
+#faded{display:none;
+margin-left:350px;}

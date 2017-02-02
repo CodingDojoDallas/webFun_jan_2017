@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Users</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="user.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="user.js"></script>
+</head>
+<body>
+	<div id="webber">
+		<h1>Add User</h1>
+		<div id=line></div>
+		<div id="container">
+			<table>
+				<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Phone</th>
+				</tr>
+				<thead>
+			</table>
+			<div id="formdata">
+			</div>
+		</div>
+		<form>
+			<div>
+			<label for="First_Name">First Name:</label>
+			<input id="first" type="text" name="First_Name">
+			</div>
+			<div>
+			<label for="Last_Name">Last Name:</label>
+			<input id="last" type="text" name="Last_Name">
+			</div>
+			<div>
+			<label for="Email">Email Address</label>
+			<input id="email" type="text" name="Email">
+			</div>
+			<div>
+			<label for="Phone">Contact No.:</label>
+			<input id="phone" type="text" name="Phone">
+			</div>
+			<input id="submit" type="submit" name="Add_User" value="Add User">
+		</form>
+	</div>
+</body>
+</html>
