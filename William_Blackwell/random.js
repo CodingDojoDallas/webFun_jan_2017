@@ -1,6 +1,6 @@
 function slots(quarters){
-    var playerN =5; //Math.floor((Math.+random() * 100)1);
-    var machineN =5; //Math.floor((Math.random() * 100)+1);
+    var playerN = Math.floor((Math.+random() * 100)+1);
+    var machineN = Math.floor((Math.random() * 100)+1);
     
   
     if(playerN === machineN){
