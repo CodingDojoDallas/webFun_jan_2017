@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery examples</title>
+	<style>
+		*{
+			border: 0px solid red;
+		}
+		body {
+			background: linear-gradient(to bottom, #345678, #567899);
+			color: white;
+			font-family: sans-serif;
+			font-size: 16px;
+			margin: 50px;
+		}
+		li {
+			list-style: none;
+			margin: auto;
+			width: 50%;
+			border-top: 2px dashed grey;
+			margin-bottom: 20px;
+		}
+		button {
+			font-size: 16px;
+			margin: 20px 100px;
+			width: 150px;
+		}
+		h1 {
+			margin-left: 20px;
+		}
+		h3 {
+			display: inline-block;
+			font-style: italic;
+		}
+		p, div {
+			display: inline-block;
+		}
+		input {
+			margin-right: 40px;
+			width: 200px;
+			padding: 10px;
+		}
+		.red {
+			color: red;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() { // jQuery bootstrap
+
+			// click
+			$(".click button").click(function() {
+				$(".click p").text("You clicked the button!");
+			});
+
+			// hide
+			$(".hide button").click(function() {
+				$(".hide p").hide();
+			});
+
+			// show
+			$(".show p").hide();
+			$(".show button").click(function() {
+				$(".show p").show();
+			});
+
+			// toggle
+			$(".toggle button").click(function() {
+				$(".toggle p").toggle();
+			});
+
+			// slideDown
+			$(".slidedown p").hide();
+			$(".slidedown button").click(function() {
+				$(".slidedown p").slideDown("slow");
+			});
+
+			// slideUp
+			$(".slideup button").click(function() {
+				$(".slideup p").slideUp("slow");
+			});
+
+			// slideToggle
+			$(".slidetoggle button").click(function() {
+				$(".slidetoggle p").slideToggle();
+			});
+
+			// fadeIn
+			$(".fadein p").hide();
+			$(".fadein button").click(function() {
+				$(".fadein p").fadeIn("slow");
+			});
+
+			// fadeOut
+			$(".fadeout button").click(function() {
+				$(".fadeout p").fadeOut("slow");
+			});
+
+			// addClass
+			$(".addclass button").click(function() {
+				$(".addclass p").addClass("red");
+			});
+
+			// before
+			$(".before button").click(function() {
+				$(".before p").before("I ");
+			});
+
+			// after
+			$(".after button").click(function() {
+				$(".after p").after(" I?");
+			});
+
+			// append
+			$(".append button").click(function() {
+				$(".append p").after(" append");
+			});
+
+			// HTML
+			$(".html button").click(function() {
+				$(".html p").html("<strong><em>HTML</em></strong>");
+			});
+
+			// attr
+			$(".attr button").click(function() {
+				$(".attr p").text("google.com");
+				$(".attr a").attr("href", "http://google.com");
+			});
+
+			// val
+			$(".val button").click(function() {
+				$(".val p").text($(".val input").val());
+			});
+
+			// text
+			$(".text button").click(function() {
+				$(".text div").text("text");
+			});
+
+			// text
+			$(".data button").click(function() {
+				$(".data p").data("Some data stored", [" Here's ", " an "," array "], 123);
+				$(".data p").text("The data stored in p is: " + $(".data p").data());
+			});
+
+		}); // end of $(document).ready(function() {
+	</script>
+</head>
+<body>
+	<ul>
+		<li class="click">
+			<h1>.click</h1>
+			<button>Click Me</button>
+			<p>Click the button</p>
+		</li>
+		<li class="hide">
+			<h1>.hide</h1>
+			<button>Hide</button>
+			<p>Click the button to hide me</p>
+		</li>
+		<li class="show">
+			<h1>.show</h1>
+			<button>Show</button>
+			<p>Here I am!</p>
+		</li>
+		<li class="toggle">
+			<h1>.toggle</h1>
+			<button>Toggle</button>
+			<p>Blinky</p>
+		</li>
+		<li class="slidedown">
+			<h1>.slideDown</h1>
+			<button>Slide Down</button>
+			<p>I slid down!</p>
+		</li>
+		<li class="slideup">
+			<h1>.slideUp</h1>
+			<button>Slide Up</button>
+			<p>I slid up!</p>
+		</li>
+		<li class="slidetoggle">
+			<h1>.slideToggle</h1>
+			<button>Slide Toggle</button>
+			<p>I toggle slide!</p>
+		</li>
+		<li class="fadein">
+			<h1>.fadeIn</h1>
+			<button>Fade In</button>
+			<p>Here I am!</p>
+		</li>
+		<li class="fadeout">
+			<h1>.fadeOut</h1>
+			<button>Fade Out</button>
+			<p>Bye bye</p>
+		</li>
+		<li class="addclass">
+			<h1>.addClass</h1>
+			<button>Add Class</button>
+			<p>Please ad the red class to me</p>
+		</li>
+		<li class="before">
+			<h1>.before</h1>
+			<button>Add Before</button>
+			<p>Am</p>
+		</li>
+		<li class="after">
+			<h1>.after</h1>
+			<button>After</button>
+			<p>Am</p>
+		</li>
+		<li class="append">
+			<h1>.append</h1>
+			<button>Append To</button>
+			<p>I</p>
+		</li>
+		<li class="html">
+			<h1>.html</h1>
+			<button>Set HTML</button>
+			<p>Text</p>
+		</li>
+		<li class="attr">
+			<h1>.attr</h1>
+			<button>Google</button>
+			<a href=""><p>A link to not google, but self</p></a>
+		</li>
+		<li class="val">
+			<h1>.val</h1>
+			<button>Value</button>
+			<input type="text" name="text" value="enter some text">
+			<p>textbox value will appear here</p>
+		</li>
+		<li class="text">
+			<h1>.text</h1>
+			<button>Set Text</button>
+			<div><h3>HTML</h3></div>
+		</li>
+		<li class="data">
+			<h1>.data</h1>
+			<button>Set Data</button>
+			<p>The data stored in p is:</p>
+		</li>
+		
+	</ul>
+</body>
+</html>

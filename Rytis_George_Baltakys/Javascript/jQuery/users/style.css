@@ -1,0 +1,72 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom, #7675c8, #b6c8d9);
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 20px;
+}
+
+h1 {
+	margin: 20px;
+}
+
+h2 {
+	border-bottom: 2px solid lightblue;
+	width: 400px;
+	margin: 40px;
+}
+
+img {
+	display: block;
+}
+
+input {
+	padding: 5px;
+	margin: 5px 10px;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	color: white;
+	background-color: purple;
+}
+
+form {
+	margin-right: auto;
+	width: 400px;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+}
+
+li {
+	margin: 10px;
+}
+
+table {
+	width: 500px;
+	margin: 100px;
+	border-collapse: collapse;
+	border-top: 2px solid purple;
+}
+
+thead th {
+	padding: 10px;
+}
+
+tbody td {
+	border-top: 1px dashed lightblue;
+	padding: 10px;
+}
