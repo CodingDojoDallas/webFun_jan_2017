@@ -1,0 +1,25 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+/*	border: 1px solid red;*/
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	color: white;
+	background: #181B1D;
+	font-family: 'Oxygen Mono', monospace;
+}
+
+img {
+	width: 300px;
+	margin: 30px;
+}
+
+div {
+	margin: 40px;
+}
