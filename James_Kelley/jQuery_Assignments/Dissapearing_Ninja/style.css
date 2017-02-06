@@ -1,0 +1,29 @@
+#wrapper {
+	height: 600px;
+	width: 970px;
+	margin: 0px auto;
+	background-color: black;
+}
+header {
+	color: white;
+	font-size: 28px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+img {
+	padding-left: 20px;
+	margin-left:;
+}
+#pics {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+button {
+	margin-left: 50px;
+	margin-top: 30px;
+	color: white;
+	background-color: green;
+	border-color: silver;
+	width: 100px;
+	height: 30px;
+}
