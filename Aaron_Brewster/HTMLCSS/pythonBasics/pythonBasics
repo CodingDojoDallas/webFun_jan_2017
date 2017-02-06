@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+
+          <meta charset="utf-8">
+          <title>pythonBasics</title>
+          <link rel="stylesheet" href="CSSpythonBasics">
+
+     </head>
+
+     <body>
+
+          <div id="darkBlue">
+
+               <img src="python.png" alt="The iconic python logo!" id="python">
+
+               <div class="topRight1">
+                    <p><span style="font-size: 14px;">Text Size: </span><span style="font-size: 14px; text-decoration: underline; color: #e6c536;">Normal</span> <span>|</span> <span style="font-size: 14px; text-decoration: underline; color: #e6c536;">Large</span></p>
+               </div>
+
+               <div class="topRight2">
+                    <form action="" method="">
+
+                         <input type="text" name="Search" class="search">
+
+                         <button type="submit" name="go" class="submit">GO</button>
+
+                    </form>
+               </div>
+
+               <div class="navBar">
+                    <h2 class="navBarh">About</h2>
+
+                    <h2 class="navBarh">Downloads</h2>
+
+                    <h2 class="navBarh">Documentation</h2>
+
+                    <h2 class="navBarh">Community</h2>
+
+                    <h2 class="navBarh">News</h2>
+
+                    <h2 class="navBarh">Events</h2>
+               </div>
+
+               <div class="listLeft">
+                    <ul style="list-style-type: none;">
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">Docs</span></li>
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">Audio/Visual Talks</span></li>
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">Beginner's Guide</span></li>
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">Developer's Guide</span></li>
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">PEP Index</span></li>
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">Python Books</span></li>
+                         <li class="listMargin"><span class="arrows">>> </span><span class="listLeftunderline">FAQ</span></li>
+                    </ul>
+               </div>
+
+               <div class="listRight">
+
+                    <div style="font-size: 15px;">
+                         <p>First appearing in 1991, Python is the greatest and greatest language ever made know to mankind, and no language will ever successfully come near the absolute raw success of python and every other language and completely and utterly... suck it. Python rules and everyone who disagrees is a bad at WoW and probably plays call of duty. Tralalalalalalalala, hahahaha I swear i'm not a troll though.</p>
+                    </div>
+
+                    <div>
+                         <ul style="list-style-type: none;">
+                              <li style="font-size: 24px; font-style: italic; color: #e6c536; margin: 8px;">Beautiful is better than ugly;</li>
+                              <li style="font-size: 24px; font-style: italic; color: #e6c536; margin: 8px;">Explicit is better than implicit;</li>
+                              <li style="font-size: 24px; font-style: italic; color: #e6c536; margin: 8px;">Simple is better than complex;</li>
+                              <li style="font-size: 24px; font-style: italic; color: #e6c536; margin: 8px;">Complex is better than complicated;</li>
+                              <li style="font-size: 24px; font-style: italic; color: #e6c536; margin: 8px;">Readability counts;</li>
+                              <li style="font-size: 24px; font-style: italic; color: white; margin: 8px;">The Zen of Python</li>
+                              <li style="font-size: 24px; font-style: italic; color: red; margin: 8px;">Also CoD sucks ;)</li>
+                         </ul>
+                    </div>
+
+               </div>
+
+          </div>
+
+          <div class="blueline"></div>
+          <div class="blueline"></div>
+
+          <div class="bottomLeftList">
+
+               <h3 style="font-weight: bold;">Getting Started</h3>
+
+               <p>Python can be easily picked up and learned by just about anyone who takes the time to sit down and grind out hours of repetitive BS, but then after a few weeks of that you just become a god... then you go Super Saiyan!</p>
+
+               <ul>
+                    <li class="highlight">Beginner's Guide, Programmers</li>
+                    <li class="highlight">Beginner's Guide, Noobs</li>
+                    <li class="highlight">Code sample and snippets for total nabs</li>
+               </ul>
+
+          </div>
+
+          <div class="bottomRightList">
+               <h3 style="font-weight: bold;">Applications</h3>
+
+               <p>The <span class="highlight">Python Package Index (PyPI)</span> hosts thousands of third party modules for Python. Also, it is known that the creators of Python also invented gravity and have been said to have programmed the UV rays of the sun itself!</p>
+
+               <ul>
+                    <li class="highlight">Web and Internet Development</li>
+                    <li class="highlight">Database access</li>
+                    <li class="highlight">Desktop GUI</li>
+                    <li class="highlight">Network Programming</li>
+                    <li class="highlight">Software and Game Development</li>
+                    <li style="color: red;">Also, CoD still sucks ;D</li>
+               </ul>
+
+          </div>
+
+          <div class="bottomBar">
+
+               <h3 class="bottomBarh">Help and General Contact</h3>
+
+               <h3 class="bottomBarh">Diversity Initiatives</h3>
+
+               <h3 class="bottomBarh">Submit Website Bugs</h3>
+
+               <h6 class="copyright">Copyright &copy;yomama's house</h6>
+
+          </div>
+
+     </body>
+
+</html>

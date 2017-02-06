@@ -1,0 +1,6 @@
+ Created a new repository on GITHUB and called it DojoAssignments
+ Opened your terminal, navigated to DojoAssignments folder
+ Initialized a git repository in  DojoAssigments directory
+ Add, committed, and pushed the changes to GitHub
+ Made a readme.md in  DojoAssigments folder explaining about it's contents.
+ Made a status check to see the changes made, then added, committed and pushed changes

@@ -1,0 +1,28 @@
+Last login: Mon Jan 23 21:33:53 on ttys001
+Canvass-MacBook-Pro:Desktop Canvas$ mkdir test
+Canvass-MacBook-Pro:Desktop Canvas$ cd test
+Canvass-MacBook-Pro:test Canvas$ touch index.html styles.css commands.tx
+Canvass-MacBook-Pro:test Canvas$ rm commands.tx
+Canvass-MacBook-Pro:test Canvas$ touch commands.txt
+Canvass-MacBook-Pro:test Canvas$ ls
+commands.txt	index.html	styles.css
+Canvass-MacBook-Pro:test Canvas$ cp index.html index_2.html
+Canvass-MacBook-Pro:test Canvas$ ls
+commands.txt	index.html	index_2.html	styles.css
+Canvass-MacBook-Pro:test Canvas$ rm styles.css
+Canvass-MacBook-Pro:test Canvas$ cd .. Desktop
+Canvass-MacBook-Pro:Desktop Canvas$ mkdir destination
+Canvass-MacBook-Pro:Desktop Canvas$ cd test
+Canvass-MacBook-Pro:test Canvas$ mv index_2.html ../destination
+Canvass-MacBook-Pro:test Canvas$ ls
+commands.txt	index.html
+Canvass-MacBook-Pro:test Canvas$ cd destination
+-bash: cd: destination: No such file or directory
+Canvass-MacBook-Pro:test Canvas$ cd .. Desktop
+Canvass-MacBook-Pro:Desktop Canvas$ cd destination
+Canvass-MacBook-Pro:destination Canvas$ ls
+index_2.html
+Canvass-MacBook-Pro:destination Canvas$ rm -rf destination
+Canvass-MacBook-Pro:destination Canvas$ cd .. Desktop
+Canvass-MacBook-Pro:Desktop Canvas$ rm -rf destination
+Canvass-MacBook-Pro:Desktop Canvas$ 

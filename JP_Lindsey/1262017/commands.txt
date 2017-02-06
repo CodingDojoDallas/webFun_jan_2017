@@ -1,0 +1,37 @@
+1/ open  terminal window
+windows key and R key
+2/ Navigate to Desktop
+cd desktop
+3/ Create a new directory, call it 'test' 
+mdir test
+4/Make files called index.html, styles.css, commands.txt inside the test directory 
+copy NUL index.html, copy NUL styles.css, copy NULcommands.txt
+
+5/Make a copy of index.html and call it index_2.html 
+copy index.html index_2.html
+
+6/In the 'test' directory, remove the 'styles.css' file 
+C:\Users|Joseph Lindsey>cd desktop\test
+C:\Users|Joseph Lindsey>cd desktop\test del styles.css
+C:\Users|Joseph Lindsey>cd desktop\test del styles.css, Delete (Y/N)?
+
+7/Navigate back to your desktop and make another directory, call it 'destination' 
+C:\Users|Joseph Lindsey>cd desktop\mkdir destination
+
+8/Move the index_2.html file from 'test' to the 'destination' directory 
+C:\Users|Joseph Lindsey>move.test\index_2.html ..\destination\index_2.html
+
+9/Now, check and see what files are in the 'test' and 'destination' directories 
+C:\Users|Joseph Lindsey\desktop\test>dir
+C:\Users|Joseph Lindsey\desktop\destination>dir
+
+10/Delete the 'destination' directory 
+if empty
+C:\Users|Joseph Lindsey\desktop\test>rmdir destination
+if not empty
+C:\Users|Joseph Lindsey\desktop\test>sudo rm -r destination
+
+11/Write the commands you used to do the above and save them in commands.txt. Then upload it below!
+ 
+
+12/Spend 10 minutes researching some other terminal commands and keep them in mind for the future!

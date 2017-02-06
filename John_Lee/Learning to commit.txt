@@ -1,0 +1,39 @@
+mkdir test
+cd test
+touch index.html
+touch stles.css
+touch aboutMe.txt
+git init
+git status
+git add . 
+git commit -m "initial commit"
+vi aboutMe.txt
+i
+	Hobbies: Reading, Games
+	Profession: Pharmacy Technician
+	Likes: Dogs
+	Favorite Food: Pizza
+ESC
+:x
+git status 
+git add .
+git commit -m "updated aboutMe"
+vi aboutMe.txt
+i
+	Favorite Movie: Monty Python and the Holy Grail
+ESC
+:x
+git status
+git add .
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n HEAD
+vi aboutMe.txt
+i
+	Favorite Movie: Monty Python and the Holy Grail
+ESC
+:x
+git status
+git add .
+git commit -m "Re-added favorite movie to aboutMe"
+git log

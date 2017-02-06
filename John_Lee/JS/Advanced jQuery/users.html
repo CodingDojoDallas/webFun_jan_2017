@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Users</title>
+    <link rel="stylesheet" type="text/css" href="ustyle.css">
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type='text/javascript'>
+      $(document).ready(function(){
+        $('button').click(function(){
+          var first_name = $('input[name=first_name]').val()
+          var last_name = $('input[name=last_name]').val()
+          var email_address = $('input[name=email_address]').val()
+          var phone = $('input[name=phone]').val()
+          var html_str = '';
+          html_str += '<tr>';
+          html_str +=   '<td>' + first_name + '</td>';
+          html_str +=   '<td>' + last_name + '</td>';
+          html_str +=   '<td>' + email_address + '</td>';
+          html_str +=   '<td>' + phone + '</td>';
+          html_str += '</tr>';
+          $('#update').append(html_str);
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id='wrapper'>
+      <table id='update'>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email Address</th>
+          <th>Contact #</th>
+        </tr>
+      </table>
+        <div id="input">
+          <h2>Add User</h2>
+          <form id='myForm'>
+            <p>First Name: <input type='text' name='first_name'></p>
+            <p>Last Name: <input type='text' name='last_name'></p>
+            <p>Email Address: <input type='text' name='email_address'></p>
+            <p>Contact No.: <input type='text' name='phone'></p>
+          </form>
+          <button>Add User</button>
+        </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,142 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid red;
+}
+body {
+	width: 970px;
+	margin: 5px;
+}
+
+a:visited {
+	color: blue;
+}
+
+#header {
+	background: linear-gradient(to bottom, #f2f4f1 0%, #ffffff 100%);
+}
+
+#logo {
+	margin-left: 10px;
+	width: 180px;
+	height: 80px;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+#tagline {
+	display: inline-block;
+	margin: 42px 20px 20px 390px;
+	vertical-align: top;
+}
+
+#menu {
+	border: 1px solid black;
+	font-size: 0.8em;
+	color: blue;
+	background: linear-gradient(to bottom, #fff 0%, #f0f2ef 50%, #fff 100%);
+}
+
+#menu li {
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 7px 41px;
+	text-align: center;
+	color: blue;
+}
+
+#main_container {
+	background: radial-gradient(#6d5966, #5a5371, #20121a);
+}
+
+#img_database {
+	width: 450px;
+	height: 220px;
+	border: 7px solid #ccc;
+	margin: 15px 15px 0px 15px;
+}
+
+#text_snippet {
+	display: inline-block;
+	margin: 3px 5px 3px 800px;
+}
+
+#img_file_icon {
+	width: 14px;
+	height: 14px;
+}
+
+#text_snippet p {
+	display: inline-block;
+	color: #517199;
+	font-size: 0.63em;
+	vertical-align: top;
+}
+
+#main_list {
+	width: 970px;
+	display: inline-block;
+	background: none;
+	border: none;
+}
+
+.info, .info li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#whatbox {
+	width: 450px;
+	height: 233px;
+	margin-top: 15px;
+}
+
+.info {
+	background: linear-gradient(to left, #dbccd9, #fff);
+}
+
+.info li {
+	width: 220px;
+	background: linear-gradient(to bottom, #7586ae, #fff);
+	margin: 1px 0px 12px 12px;
+	border: 1px solid #ccc;
+}
+
+.info li img {
+	width: 220px;
+	height: 130px;
+}
+
+.info h2, .info li h2 {
+	padding: 7px 5px;
+	font-size: 0.9em;
+	background: linear-gradient(to bottom, #cecace, #868491, #cecace);
+}
+
+.info h3 {
+	padding: 10px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.info p, .info li p {
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+.info li span {
+	display: inline-block;
+	margin: 15px 0px 15px 116px;
+	border: 3px solid black;
+	border-radius: 6px;
+	background-color: #5d729a;
+	color: #fff;
+	font-size: 0.6em;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px 7px;
+	box-shadow: 0px 5px 15px -3px black;
+}

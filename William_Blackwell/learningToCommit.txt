@@ -1,0 +1,20 @@
+cd desktop
+mkdir test
+cd test
+touch index.html
+touch styles.css
+touch aboutme.txt
+git init
+git add.
+git commit -m "new repo"
+nano aboutme.txt
+enter
+git add .
+git commit -m"updated about me"
+nano aboutme.txt
+git commit -m"added favorite movie to aboutme"
+git log
+git revert aboutme.txt
+nano aboutme.txt 
+git add .
+git commit -m"recommit"

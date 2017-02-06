@@ -1,0 +1,150 @@
+*{
+   margin:0px;
+   padding: 0px;
+ }
+ #wrapper{
+   width: 970px;
+   height: 900px;
+   background-color:#245076;
+   margin: 0px auto;
+ }
+
+ #symbol{
+   width: 350px;
+   margin-left:20px;
+   display: inline-block;
+ }
+
+ #word{
+   color:#FFFFFF;
+   left: 775px;
+   position:relative;
+   bottom: 100px;
+ }
+
+ #header{
+   height: 50px;
+   width: 775px;
+   background-color: #487FAD;
+   color:#FFFFFF;
+   display:inline-block;
+   text-align:center;
+   margin-top: 15px;
+   margin-left: 100px;
+   border-radius: 7px;
+   box-shadow: 5px 5px 3px #1F272D;
+ }
+
+ .subcontents{
+   display:inline-block;
+   margin-top: 13px;
+   font-size:145%;
+   margin-left: 12px;
+   margin-right: 12px;
+ }
+
+ #search{
+   height: 30px;
+   width: 250px;
+   padding: 2px;
+   background-color:#444444;
+   padding-top:15px;
+   left:320px;
+   text-align:center;
+   display:inline-block;
+   position: relative;
+   bottom: 30px;
+   box-shadow: 5px 5px 3px #1F272D;
+   border-radius: 10px;
+
+ }
+
+
+ #index{
+   height: 250px;
+   width: 150px;
+   color:#FFFFFF;
+   display:inline-block;
+   text-align:center;
+   text-decoration: underline;
+   margin-left: 120px;
+   line-height: 30px;
+ }
+
+ #yellow{
+   color:#FFE254;
+   font-weight: bold;
+   font-style: normal;;
+ }
+
+ #text{
+   height: 100px;
+   width: 600px;
+   color:#FFFFFF;
+   display:inline-block;
+   text-align: center;
+   margin-left:55px;
+   margin-top: 15px;
+   line-height: 20px;
+ }
+
+ #quote{
+   color:#FFE254;
+   font-weight: bold;
+   font-style: italic;
+ }
+
+ #white{
+   height: 300px;
+   width: 970px;
+   background-color:#FFFFFF;
+   display:inline-block;
+   box-shadow: 20px #1F272D;
+ }
+
+ #start{
+   height: 150px;
+   width: 350px;
+   background-color:#FFFFFF;
+   display:inline-block;
+   text-align:center;
+   margin-left:100px;
+ }
+
+
+ #app{
+   height: 150px;
+   width: 350px;
+   background-color:#FFFFFF;
+   display: inline-block;
+   text-align:center;
+   margin-left:100px;
+   margin-top:25px;
+ }
+ #line1{
+   width:250px;
+   height: 3px;
+   background-color:#73A7D5;
+   margin-left:155px;
+   margin-top: 40px;
+ }
+ #line2{
+   width:250px;
+   height: 3px;
+   position:relative;
+   background-color:#73A7D5;
+   margin-left:600px;
+   margin-top: 0px;
+ }
+
+ #bluetext{
+   color:#84B7E3;
+ }
+ .subcontents2{
+   display:inline-block;
+   margin-top: 50px;
+   font-size:80%;
+   margin-left: 100px;
+   margin-right: 100px;
+   color:#4D83B2;
+ }

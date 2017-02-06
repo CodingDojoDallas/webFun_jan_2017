@@ -1,0 +1,45 @@
+#Wrapper{
+  width: 970px;
+  background-color: navy;
+  padding: 20px;
+}
+#Header{
+  background-color: red;
+  display: block;
+  border-radius:25px;
+  color: white;
+
+}
+h1{
+  padding: 10px 10px;
+  margin: 5px;
+}
+#Nav{
+  background-color: #2A7D8C;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 15px;
+  vertical-align: top;
+  margin: 8px
+}
+#data1{
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  display: inline-block;
+  width: 650px;
+  padding: 10px 20px;
+}
+#conclus{
+  background-color: grey;
+  margin: 5px;
+  display: block;
+  border-radius: 25px;
+  padding: 5px;
+}
+span{
+  color: blue;
+}
+a{
+  color: #57B9BE;
+}

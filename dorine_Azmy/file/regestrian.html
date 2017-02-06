@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+          <title> Example Form </title>
+          <meta charset="utf-8">
+  </head>
+  <body>
+    <h1> My Registration Form</h1>
+      <form  class=""action="index.html" method="post" >
+        <div>
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name">
+        </div>
+        <div>
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="last_name">
+        </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div>
+        <label for="password"> Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <div>
+      <label for="password confirm"> Password cofirm:</label>
+      <input type="password confirm" id="password confirm" name="password confirm">
+    </div>
+    <div>
+      <label for="birthday"> Birthday:</label>
+      <input type="date" id="birthday" >
+    </div>
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="other"> Other</label>
+      <input type="radio" id="other"name="gender">
+    </div>
+    <div>
+      <label for="descrip">short description about yourself</label>
+    </div>
+    <div>
+      <textarea name="description yourself"> </textarea>
+    </div>
+    <div>
+       <label for="favarite language">favarite language</label>
+       <select>
+        <option value="javascript">javascript</option>
+        <option value="Ruby">Ruby</option>
+        <<option value="Python">Python</option>
+      </select>
+    </div>
+    <div>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

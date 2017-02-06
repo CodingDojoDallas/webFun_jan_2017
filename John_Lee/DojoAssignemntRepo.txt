@@ -1,0 +1,10 @@
+Created new depository on GITHUB, named DojoAssignments
+Initialized a repository in previously made DojoAssignments folder
+git remote add origin https://github.com/jjl2599/DojoAssignments.git
+git remote -v
+git push -u origin master
+created a read.md file
+touch read.md
+git status
+git add .
+git push

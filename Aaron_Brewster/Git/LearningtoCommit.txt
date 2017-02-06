@@ -1,0 +1,34 @@
+cd Desktop
+
+mkdir test
+
+cd test
+
+touch index.html style.css aboutMe.txt
+
+git init
+
+git add .
+
+git commit -m "initial comment"
+
+git add aboutMe.txt
+
+git commit -m "updated aboutme"
+
+git add aboutMe.txt
+
+git commit -m "added a movie"
+
+git log
+
+git revert cf6fed343
+
+git add aboutMe.txt
+
+git commit -m "added a song"
+
+
+
+
+

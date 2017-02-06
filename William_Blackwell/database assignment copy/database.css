@@ -1,0 +1,159 @@
+#wrapper {
+	width: 970px;
+	height: auto
+	;
+	background: radial-gradient(ellipse at center, #6d5967 0%,#0e0e0e 71%); 
+	padding: 0px;
+	margin: 0 auto;
+}
+.titles {
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+
+}
+p {
+	margin:5px;
+	text-indent: 10px;
+}
+h4 {
+	margin-left: 10px;
+}
+h5 {
+	margin-top: 5px;
+	text-align: right;
+	padding-right: 15px;
+	color: #5a709c;
+}
+#header {
+	width: 970px;
+	height: 100px;
+	background: linear-gradient(to bottom, #f1f2ef 0%,#ffffff 71%);
+}
+#hright {
+	display: inline-block;
+	width: 450px;
+	height: 100px;
+	vertical-align: top;
+}
+#hright h3 {
+	text-align: right;
+	padding-top: 30px;
+
+}
+#hleft {
+	width: 450px;
+	height: 100px;
+	display: inline-block;
+}
+#hleft img{
+	max-height: 100%;
+	max-width: 100%;
+}
+ul {
+	list-style-type: none;
+	background-color: white;
+	text-align: center;
+	height: 40px;
+	margin-top:0px;
+	width: 100%;
+	padding-left: 0px;
+
+}
+ul li {
+	display: inline-block;
+	background-color: white;
+	line-height: 40px;
+	margin: 0px;
+	width: 14.07%;
+	border:1px solid black;
+}
+#mainc {
+	width: 481px;
+	height: 325px;
+	background-color: gray;
+	margin-left: 20px;
+	display: inline-block;
+}
+#mainc img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#maincr {
+	width: 430px;
+	height: 325px;
+	background-color: #e5e1ea;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+#maincrh {
+	width: 100%;
+	height:30px;
+	background: radial-gradient(ellipse at center, #1e5799 0%,#8b8996 1%,#8b8996 51%,#cecace 100%)
+}
+#box {
+	width:auto;
+	height: auto;
+}
+.boxes {
+	width:222px;
+	height:340px;
+	background: linear-gradient(to bottom, #9ba8c2 0%,#d6d6d6 100%,#7db9e8 100%);
+	display: inline-block;
+	margin-left: 13px;
+	margin-bottom: 15px;
+	vertical-align: top;
+}
+.boxh {
+	width: auto;
+	height: 30px;
+	background: radial-gradient(ellipse at center, #1e5799 0%,#8b8996 1%,#8b8996 51%,#cecace 100%)
+}
+.pic {
+	width: auto;
+	height:100px;
+	background-color:white;
+}
+.pic img {
+	width:auto;
+	height:100px;
+	margin-left: 40px;
+}
+.boxes p {
+	margin:px;
+	text-indent: 10px;
+	font-size: 12px;
+}
+.read {
+	text-align: ;
+}
+.button4 {
+	margin-top: 90px;
+	text-align: right;
+}
+.button3 {
+	margin-top: 50px;
+	text-align: right;
+}
+.button2 {
+	margin-top: 35px;
+	text-align: right;
+}
+.button1 {
+	margin-top: 20px;
+	text-align: right;
+}
+.buttons {
+	background-color: #5c729c;
+	border-radius: 5px;
+	color: white;
+	border:2px solid #19090d;
+}
+.buttons:hover {
+	color: #5c729c;
+	background-color: white;
+}

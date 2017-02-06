@@ -1,0 +1,51 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 950px;
+ height: auto;
+ background-color: silver;
+ margin: 0px auto;
+}
+#header{
+ height: 150px;
+ width: 925px;
+ background-color: green;
+ margin-bottom: 20px;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ display: inline-block;
+ vertical-align: top;
+ margin-right: 20px;
+}
+#main_content{
+ height: 400px;
+ width: 700px;
+ background-color: red;
+ display: inline-block;
+ margin-bottom: 20px;
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ display: inline-block;
+ margin: 7px;
+}
+#advertisement{
+ height: 120px;
+ width: 666px;
+ background-color: purple;
+ display: inline-block;
+ margin-left: 7px;
+
+}
+
+//Use margins and paddings to adjust the
+  spaces between divisions and use the display
+  property to be able to put each block in its proper 
+  place.//

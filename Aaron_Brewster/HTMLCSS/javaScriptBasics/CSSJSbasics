@@ -1,0 +1,51 @@
+#wrapper{
+     background-color: rgb(6, 66, 163);
+     width: 970px;
+     height: auto;
+     color: white;
+     margin: 10px;
+     padding: 10px;
+}
+
+h1{
+     background-color: red;
+     color: white;
+     padding: 20px;
+     border-radius: 15px;
+}
+
+#left{
+     background-color: darkturquoise;
+     text-decoration: underline;
+     color: cyan;
+     display: inline-block;
+     padding: 10px;
+     border-radius: 15px;
+     position: relative;
+     bottom: 240px;
+}
+
+#right{
+     background-color: black;
+     display: inline-block;
+     padding: 10px;
+     width: 740px;
+     border-radius: 15px;
+     position: relative;
+     left: 23px;
+}
+
+#bottom{
+     background-color: grey;
+     padding: 20px;
+     border-radius: 15px;
+}
+
+.fun{
+     text-decoration: underline;
+     color: cyan;
+}
+
+.bad{
+     color: purple;
+}

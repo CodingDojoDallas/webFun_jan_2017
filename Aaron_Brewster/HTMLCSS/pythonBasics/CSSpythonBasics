@@ -1,0 +1,172 @@
+*{
+     font-family: sans-serif;
+     font-weight: lighter;
+}
+
+body{
+     width: 970px;
+}
+
+.blueline{
+     background-color: #73a7d5;
+     width: 410px;
+     height: 4px;
+     display: inline-block;
+     margin: 10px;
+     position: relative;
+     left: 50px;
+     bottom: 10px;
+}
+
+#wrapper{
+     width: 970px;
+     padding: 0px;
+     margin:0 auto;
+     height: auto;
+}
+
+#darkBlue{
+     background-color: #245076;
+     color: white;
+     width: 930px;
+     margin: 10px;
+     padding: 20px;
+
+}
+
+#python{
+     width: 400px;
+     height: 108px;
+}
+
+.topRight1{
+     display: inline-block;
+     position:relative;
+     bottom: 90px;
+     left: 320px;
+}
+
+.topRight2{
+     display: inline-block;
+     border-radius: 10px;
+     background-color: #444444;
+     padding: 14px 28px 14px 28px;
+     margin: 5px;
+     box-shadow: 2px 2px 2px black;
+     position: relative;
+     bottom: 52px;
+     left: 90px;
+}
+
+.search{
+     width: 160px;
+     height: 26px;
+}
+
+.submit{
+     border-radius: 5px;
+     height: 30px;
+     width: 38px;
+     margin-left: 2px;
+}
+
+.navBar{
+     background-color: #437dad;
+     border-radius: 10px;
+     display: inline-block;
+     padding: 0px 22px 0px 22px;
+     box-shadow: 2px 2px 2px black;
+     position: relative;
+     left: 60px;
+     bottom: 15px;
+
+}
+
+.navBarh{
+     display: inline-block;
+     margin: 10px 16px 10px 16px;
+}
+
+.listLeft{
+     font-size: 20px;
+     display: inline-block;
+     text-align: center;
+     position: relative;
+     bottom: 96px;
+     left: 46px;
+}
+
+.listMargin{
+     margin: 10px;
+}
+
+.arrows{
+     color: gold;
+     font-size: 10px;
+     text-decoration: none;
+     font-style: none;
+}
+
+.listLeftunderline{
+     text-decoration: underline;
+}
+
+.listRight{
+     display: inline-block;
+     text-align: center;
+     width: 580px;
+     position: relative;
+     left: 80px;
+}
+
+
+
+.bottomLeftList{
+     display: inline-block;
+     text-align: center;
+     width: 300px;
+     margin: 10px;
+     position: relative;
+     left: 50px;
+     bottom: 86px;
+}
+
+.bottomRightList{
+     display: inline-block;
+     text-align: center;
+     width: 300px;
+     margin: 10px;
+     position: relative;
+     left: 170px;
+     bottom: 50px;
+}
+
+.highlight{
+     color: #86b3da;
+}
+
+.bottomBar{
+     display: inline-block;
+     color: #5188b7;
+     background-color: #2e6698;
+     width: 975px;
+     height: 90px;
+     text-align: center;
+     position: relative;
+     bottom: 60px;
+     left: 10px;
+}
+
+.bottomBarh{
+     display: inline-block;
+     margin: 45px 20px 0px 20px;
+     position: relative;
+     bottom: 4px;
+     right: 10px;
+
+}
+
+.copyright{
+     position: relative;
+     bottom: 18px;
+}

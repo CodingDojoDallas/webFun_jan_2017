@@ -1,0 +1,11 @@
+Aly Hemani
+Alys-MacBook-Pro:desktop hemani04$ cd DojoAssignments
+Alys-MacBook-Pro:DojoAssignments hemani04$ git init
+Alys-MacBook-Pro:DojoAssignments hemani04$ git add .
+Alys-MacBook-Pro:DojoAssignments hemani04$ git commit -m"Dojo files"
+Alys-MacBook-Pro:DojoAssignments hemani04$ git push
+Alys-MacBook-Pro:DojoAssignments hemani04$ touch readme.md
+Alys-MacBook-Pro:DojoAssignments hemani04$ git status
+Alys-MacBook-Pro:DojoAssignments hemani04$ git add .
+Alys-MacBook-Pro:DojoAssignments hemani04$ git commit -m"new file"
+Alys-MacBook-Pro:DojoAssignments hemani04$ git push

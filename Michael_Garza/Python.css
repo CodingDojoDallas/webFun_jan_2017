@@ -1,0 +1,158 @@
+#wrapper{
+  width: 970px;
+  color: white;
+}
+#topbg{
+  background-color: #245076;
+}
+#logo{
+  display: inline-block;
+}
+img{
+  width: 340px;
+  padding: 20px;
+}
+#textsize{
+ display: inline-block;
+ vertical-align: top;
+ padding-left: 320px;
+ text-align: right;
+}
+#textsize p{
+  color: white;
+}
+#search{
+  border-style: groove;
+  text-align: center;
+  color: grey;
+  padding:7px;
+}
+#go{
+  background-color:#245076;
+  color: white;
+  padding: 2px;
+  border-radius:3px;
+  font-size: 10px;
+}
+form {
+    background-color: #2C3539;
+    padding: 15px 40px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-radius: 8px;
+    border-color: black;
+}
+.tsize{
+color: gold;
+}
+#topnav li {
+ display: inline-block;
+ font-size: 20px;
+ padding-left: 20px;
+ }
+#topnav{
+   background-color: #3E7AAD;
+   border-radius: 10px;
+   margin-left: 100px;
+  margin-right: 100px;
+   display: block;
+   padding: 15px;
+   border-bottom: black;
+   border-bottom-style: solid;
+   border-right-style: solid;
+   text-align: center;
+   border-color: black;
+}
+#topnav a{
+  color: white;
+  text-decoration: none;
+}
+#nav{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+#nav ul{
+ list-style: none;
+ padding: 40px;
+}
+#nav li{
+  padding-bottom:4px;
+  font-size: 20px;
+}
+.arrow{
+  color: gold;
+}
+#nav a{
+  color: white;
+}
+#toppar{
+display: inline-block;
+ width: 700px;
+ text-align: center;
+ color: white;
+}
+div .parheads{
+  color: gold;
+  font-weight: bold;
+}
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 3px solid;
+    margin: 1em 0;
+    padding: 0;
+    color: lightblue;
+}
+#side1{
+  display: inline-block;
+  width: 400px;
+  color: black;
+  padding-left: 100px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+#side2{
+  display: inline-block;
+  width: 400px;
+  color: black;
+  text-align: center;
+
+}
+#side1l{
+  text-align: center;
+  list-style-type: square;
+}
+#side2l{
+  text-align: center;
+  list-style-type: square;
+}
+li{
+  color: black;
+}
+#PyPi{
+  color:lightblue;
+}
+#conclus{
+  background-color:#245076;
+  text-align: center;
+  color: lightblue;
+
+}
+#conclus li{
+list-style-type: none;
+display: inline-block;
+font-size: 20pt;
+padding: 15px;
+}
+#conclus a{
+  text-decoration: none;
+  color: lightblue;
+}
+#side2l #list{
+  color: lightblue;
+}
+#side1l #list{
+  color: lightblue;
+}

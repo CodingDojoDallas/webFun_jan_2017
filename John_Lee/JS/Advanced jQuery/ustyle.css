@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#wrapper{
+  width: 800px;
+  height: 700px;
+}
+#update{
+  display:inline-block;
+  vertical-align: top;
+  list-style-type: none;
+  width:auto;
+  border: solid 2px black;
+  margin: 10px 0px 30px 10px;
+}
+#update th{
+  padding: 5px 15px;
+}
+#input{
+  vertical-align:baseline;
+  width: 400px;
+  height: 200px;
+  margin: 10px 0px 0px 10px;
+}
+#input h2{
+  border-bottom: solid 2px black;
+  margin-bottom: 30px;
+}
+p{
+  vertical-align:top;
+  display:block;
+  margin: 10px 0px;
+}

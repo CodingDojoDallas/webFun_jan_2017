@@ -1,0 +1,10 @@
+Open Terminal - Command + Space, Type in Terminal
+Navigate to Desktop - cd Desktop
+Create a new directory call it test - mkdir Test
+Make files called index… - touch index.html, touch commands.txt, touch styles.css
+Make a copy of index - cp index.html index_2.html
+Remove styles.css - rm styles.css
+Navigate back and make new file - cd .. , mkdir Destination
+Move index_2.html to Destination - mv index_2.html ../Destination
+Check to see what files are in test and destination - ls
+Delete Destination - rm -rf Destination

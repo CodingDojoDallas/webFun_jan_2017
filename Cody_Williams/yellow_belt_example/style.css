@@ -1,0 +1,141 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+#header{
+	height: 39px;
+	background: #E8E8E8;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+#header_ul{
+	display: inline-block;
+	vertical-align: top;
+}
+	#header_ul li{
+		display: inline-block;
+		padding: 10px 30px;
+		border-right: 1px solid lightgrey;
+	}
+#search_form{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 8px;
+	margin-left: 200px;
+}
+	#search_form input{
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+#search_img{
+	vertical-align: top;
+	margin-top: 7.5px;
+	height: 16px;
+}
+#menu_icon{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#main_img{
+	width: 100%;
+}
+#jumbotron{
+	border-radius: 0 0 5px 5px;
+}
+#jumbotron_ul{
+	background: #C2C2C2;
+	margin-top: -5px;
+	border-radius: 0 0 5px 5px;
+}
+	#jumbotron_ul li{
+		display: inline-block;
+		padding: 9px 0;
+	}
+	#jumbotron_ul li:after{
+		content: '/';
+		color: lightgrey;
+		padding: 0 20px;
+	}
+	#jumbotron_ul li:first-child{
+		padding-left: 20px;
+		color: white;	
+	}
+	#jumbotron_ul li:last-child:after{
+		content: none;
+	}
+#middle_div{
+	padding: 30px 30px;
+	margin-top: 20px;
+	border: 1px solid grey;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+	#middle_div h1{
+		display: inline-block;
+		border-right: 1px solid grey;
+		padding-right: 40px;
+	}
+	#middle_div button{
+		vertical-align: top;
+		width: 29%;
+		height: 37px;
+		margin-left: 38px;
+		font-size: 15px;
+	}
+	#middle_div div{
+		margin: 0 auto;
+	}
+#content_info{
+	padding: 10px;
+	border: 1px solid grey;
+}
+.tile{
+	border-right: 1px solid grey;
+	width: 24.69%;
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: top;
+	height: 292px;
+	position: relative;
+}
+	.tile p{
+		padding-left: 8px;
+		margin: 10px 0;
+	}
+	.tile h4{
+		display: inline-block;
+		font-size: 20px;
+		margin-left: 5px;
+	}
+	.tile button{
+		display: block;
+		width: 80%;
+		height: 25px;
+		margin: 10px 0;
+		position: absolute;
+		bottom: 0;
+		left: 25px;
+	}
+	.tile:last-child{
+		border-right: none;
+	}
+.tiny{
+	vertical-align: bottom;
+	margin-left: 8px;
+	width: 25px;
+	height: 24px;
+}
+.block_img{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+

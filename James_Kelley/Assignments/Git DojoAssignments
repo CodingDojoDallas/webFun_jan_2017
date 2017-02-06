@@ -1,0 +1,60 @@
+Last login: Tue Jan 24 15:44:32 on ttys000
+Canvass-MacBook-Pro:~ Canvas$ cd desktop
+Canvass-MacBook-Pro:desktop Canvas$ git clone https://github.com/JAMESDKELLEY/DojoAssignments.git
+Cloning into 'DojoAssignments'...
+warning: You appear to have cloned an empty repository.
+Canvass-MacBook-Pro:desktop Canvas$ cd DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ touch readme.md
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git add .
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git commit -m "added contents"
+[master (root-commit) ff9b6a8] added contents
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 214 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JAMESDKELLEY/DojoAssignments.git
+ * [new branch]      master -> master
+Canvass-MacBook-Pro:DojoAssignments Canvas$ open readme.md
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git add .
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git commit -m "changed contents"
+[master 402465e] changed contents
+ 1 file changed, 1 insertion(+)
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 255 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JAMESDKELLEY/DojoAssignments.git
+   ff9b6a8..402465e  master -> master
+Canvass-MacBook-Pro:DojoAssignments Canvas$ open readme.md
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git add .
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   readme.md
+
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git commit -m "changed contents again"
+[master acfc53f] changed contents again
+ 1 file changed, 1 insertion(+)
+Canvass-MacBook-Pro:DojoAssignments Canvas$ git push
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 263 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JAMESDKELLEY/DojoAssignments.git
+   402465e..acfc53f  master -> master
+Canvass-MacBook-Pro:DojoAssignments Canvas$ 

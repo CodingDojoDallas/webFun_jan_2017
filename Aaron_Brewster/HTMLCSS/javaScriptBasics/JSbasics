@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <title>Javascript Basics</title>
+          <link rel="stylesheet" href="CSSJSbasics">
+     </head>
+
+     <body>
+
+          <div id="wrapper">
+
+               <h1 class="red">JavaScript Basics</h1>
+
+               <div id="left">
+                    <p>Home</p>
+                    <ul>
+                         <li>JS Overview</li>
+                         <li><ul>
+                              <li>variable</li>
+                              <li>Assignemnt</li>
+                              <li>Data type</li>
+                              <li>Conditionals</li>
+                              <li>Loops</li>
+                              </ul>
+                         </li>
+                         <li>Projects</li>
+                         <li>Assignments</li>
+                    </ul>
+               </div>
+
+               <div id="right">
+                    <h3>JavaScript Basics</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <ul>
+                         <li><span class="fun">Super de duper</span>Lorem ipsum dolor sit amet, c dolore magna <span class="fun">aliqua. Ut enim ad minim veniam,</span> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                         <li><span class="fun">Mary Poppins</span>Lorem <span class="bad">ipsum dolor</span> sit amet, t dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <span class="bad">velit esse cillum dolore</span> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                         <li><span class="fun">Willy Wonka and the Chocolate Factory</span> Lorem ipsum dolor sit amet,abore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <span class="fun">laboris nisi ut aliquip</span> ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                         <li><span class="fun">Oompa Loompa Oopidy Doo</span> Lorem ipsum dolor sit amet, consectet labore et dolore magna aliqua. <span class="bad">Ut enim ad minim veniam,</span> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                    </ul>
+               </div>
+
+               <div>
+                    <p id="bottom">For more great info! Dial 911 and say you want to: <span class="fun">kill yourself!!!</span></p>
+               </div>
+
+          </div>
+     </body>
+
+</html>

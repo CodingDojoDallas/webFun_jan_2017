@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+          <meta charset="utf-8">
+          <title>databse basics</title>
+          <link rel="stylesheet" href="CSSdatabaseBasics">
+     </head>
+
+     <body>
+
+          <div id="mainHeader">
+
+               <img src="images/database-name.jpg" alt="A beautiful database license plate" id="databasePlate">
+
+               <h2 id="mainHeaderText">You can't learn enough about Databases!</h2>
+
+          </div>
+
+          <ul id="navBar">
+               <li class="navBarh">Home</li><!--
+               --><li class="navBarh">About</li><!--
+               --><li class="navBarh">Storage</li><!--
+               --><li class="navBarh">Searching</li><!--
+               --><li class="navBarh">Interaction</li><!--
+               --><li class="navBarh">Companies</li><!--
+               --><li class="navBarh">Contact Us</li>
+          </ul>
+
+          <div id="mainWrapper">
+
+               <img src="images/database.jpg" alt="A big brain made of text" id="mainImage">
+
+               <div id="mainText">
+
+                    <h4 class="subTexth">What are Databases?</h4>
+
+                    <h6 style="margin: 10px; font-size: 12px;">A structured set of data</h6>
+
+                    <p class="subTextp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+               </div>
+
+               <p id="tinyP"><img src="images/icon.png" alt="Tiny Server" id="tinyServer"> A stack of information!</p>
+
+               <div class="subTextBlocks">
+
+                    <h5 class="subTexth">Storage</h5>
+
+                    <img src="images/harddrive.jpg" alt="Picture ofa big Hard Drive" class="subImages">
+
+                    <p class="subTextp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <button type="button" name="button" class="subTextb">Read More...</button>
+
+               </div>
+
+               <div class="subTextBlocks">
+
+                    <h5 class="subTexth">Searching</h5>
+
+                    <img src="images/database-search.jpg" alt="Blue man searching through files" class="subImages">
+
+                    <p class="subTextp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <button type="button" name="button" class="subTextb">Read More...</button>
+
+               </div>
+
+               <div class="subTextBlocks">
+
+                    <h5 class="subTexth">Interaction</h5>
+
+                    <img src="images/dbinteraction.png" alt="computers connecting to a database" class="subImages">
+
+                    <p class="subTextp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <button type="button" name="button" class="subTextb">Read More...</button>
+
+               </div>
+
+               <div class="subTextBlocks">
+
+                    <h5 class="subTexth">Companies</h5>
+
+                    <img src="images/database-companies.jpg" alt="Company logos" class="subImages">
+
+                    <p class="subTextp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <button type="button" name="button" class="subTextb">Read More...</button>
+
+               </div>
+
+          </div>
+
+     </body>
+
+</html>

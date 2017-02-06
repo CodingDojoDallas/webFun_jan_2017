@@ -1,0 +1,134 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#wrapper{
+  width: 970px;
+  height: auto;
+  margin: 0px auto;
+}
+#wrappertwo{
+  width: 970px;
+  height: auto;
+  margin: 0px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: radial-gradient(#6C5967,#565074, black);
+}
+
+#header{
+ width: 970px;
+ height: 125px;
+ position:relative;
+ display: inline-block;
+ background-color:#FFFFFF;
+ background: linear-gradient(white, #EFF1ED)
+}
+h3{
+  display:inline-block;
+  margin-top:80px;
+  margin-left:550px;
+}
+#himage{
+  display:inline-block;
+  position: absolute;
+}
+
+#option{
+  width:989px;
+  height:32px;
+  border: solid;
+  border-width:thin;
+  display:inline-block;
+}
+.subcontents{
+  background-color:#FFFFFF;
+  display:inline-block;
+  border: solid;
+  border-width:thin;
+  line-height:30px;
+  padding-left:35px;
+  padding-right:35px;
+  background: linear-gradient(white, #EFF1ED, white)
+}
+#top{
+  width: 970px;
+  height: 280px;
+  margin-top: 20px;
+  display:inline-block;
+}
+#databasepic{
+  border: solid;
+  border-width:thick;
+  border-color:grey;
+  vertical-align:top;
+  display:inline-block;
+}
+#top2{
+  width: 400px;
+  height: 250px;
+  margin-left: 20px;
+  vertical-align:top;
+  display:inline-block;
+  background: linear-gradient(to left, #DACBD9, #F2F9FC);
+}
+.toptitle{
+  font-size:115%;
+  font-weight: 900;
+  padding: 10px 0px;
+  height:25px;
+  width:400px;
+  background: linear-gradient(#B2AEB7, #8B8996, #B2AEB7);
+}
+.topsub{
+  margin: 10px 5px;
+  font-weight: bolder;
+}
+#middle{
+  width:300px;
+  height: 30px;
+  margin-left:775px;
+  color:#2C5DA9;
+}
+.midpic{
+  vertical-align:top;
+  display:inline-block;
+}
+.stack{
+  vertical-align:top;
+  display:inline-block;
+}
+#bottom{
+  width: 970px;
+  height: 550px;
+  display: inline-block;
+}
+.thead{
+  font-size:115%;
+  font-weight: 900;
+  padding: 10px 0px;
+  height:25px;
+  width:225px;
+  background: linear-gradient(#B2AEB7, #8B8996, #B2AEB7);
+}
+.separate{
+  width: 225px;
+  height:500px;
+  margin:5px;
+  display:inline-block;
+  background: linear-gradient( #9DAAC4, #FBFCFD);
+}
+.button{
+  margin-left:125px;
+  margin-top:50px;
+  background-color:#5C729C;
+  border: solid;
+  border-width:thick;
+  border-color:black;
+  color: white;
+  padding: 3px 3px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0px 5px 15px #1F272D;
+  border-radius: 10px;
+}

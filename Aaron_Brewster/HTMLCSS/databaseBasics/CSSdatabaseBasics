@@ -1,0 +1,144 @@
+body{
+     width: 990px;
+}
+
+#mainHeader{
+     background-color: #f0f2ef;
+     background-image: linear-gradient(to top, white, #f0f2ee);
+     height: 100px;
+     margin-bottom: 0px;
+     padding-left: 10px;
+     padding-bottom: 5px;
+}
+
+#databasePlate{
+     display: inline-block;
+     text-align: left;
+     height: 100px;
+     width: 200px;
+
+}
+
+#mainHeaderText{
+     display: inline-block;
+     font-weight: bolder;
+     margin-bottom: 0px;
+     position: relative;
+     left: 280px;
+     bottom: 30px;
+
+}
+
+#navBar{
+     background-color: #f4f5f2;
+     background-image: linear-gradient(white, #f0f2ee, white);
+     color: #a6c4f0;
+     list-style-type: none;
+     text-align: center;
+     text-decoration: underline;
+     border: 1px solid black;
+     margin-bottom: 0px;
+     margin-top: 0px;
+     height: 40px;
+
+}
+
+.navBarh{
+     display: inline;
+     margin: 12px 0px 12px 0px;
+     border-right: 1px solid black;
+     padding: 11px 36px 12px 36px;
+     position: relative;
+     top: 11px;
+     right: 50px;
+}
+
+#mainWrapper{
+     background-color: #545075;
+     background-image: radial-gradient(#6c5866, #535075, #1b0b10);
+     padding: 20px;
+     padding-bottom: 10px;
+
+}
+
+#mainImage{
+     display: inline-block;
+     height: 260px;
+     width: 500px;
+     border: 10px solid;
+     border-width: 10px;
+     border-color: #c0c0c0;
+
+}
+
+#mainText{
+     background-color: #e5e2ea;
+     background-image: linear-gradient(to right, #f3fcfe, #dacbd9);
+     display: inline-block;
+     margin: 10px;
+     margin-top: 0px;
+     margin-bottom: 5px;
+     height: 280px;
+     width: 400px;
+     vertical-align: top;
+
+}
+
+#tinyServer{
+     height: 10px;
+     width: 10px;
+
+}
+
+#tinyP{
+     text-align: right;
+     color: #596b97;
+     margin: 0px;
+     margin-right: 30px;
+     font-size: 10px;
+
+}
+
+.subTextBlocks{
+     display: inline-block;
+     background-color: #c3ccdb;
+     background-image: linear-gradient(to top, #fefefe, #99a6c1);
+     margin: 5px;
+     height: 500px;
+     width: 222px;
+
+}
+
+.subTexth{
+     background-color: #b2afb8;
+     background-image: linear-gradient(to top, #cdc9cd, #868492, #cdc9cd);
+     padding: 10px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+
+.subTextp{
+     margin: 10px;
+     font-size: 13px;
+}
+
+.subImages{
+     margin-top: 0px;
+     height: 140px;
+     width: 222px;
+
+}
+
+.subTextb{
+     display: inline-block;
+     border: 3px solid black;
+     color: white;
+     background-color: #5c729c;
+     border-radius: 6px;
+     box-shadow: 0px 5px 10px -2px black;
+     height: 22px;
+     width: 80px;
+     position: relative;
+     top: 55px;
+     left: 120px;
+}

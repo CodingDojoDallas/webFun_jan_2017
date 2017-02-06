@@ -1,0 +1,426 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\Joseph Lindsey>cd desktop
+
+C:\Users\Joseph Lindsey\Desktop>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Joseph Lindsey\Desktop>dir
+ Volume in drive C is Windows
+ Volume Serial Number is FC98-6A8A
+
+ Directory of C:\Users\Joseph Lindsey\Desktop
+
+01/25/2017  04:48 PM    <DIR>          .
+01/25/2017  04:48 PM    <DIR>          ..
+01/23/2017  06:53 AM             2,286 Atom.lnk
+01/25/2017  11:39 AM    <DIR>          blockdisplay
+01/18/2017  11:39 AM             1,068 Click to Register Learnit 30days.lnk
+01/24/2017  01:28 PM               515 css
+01/25/2017  01:27 PM    <DIR>          destination
+01/24/2017  08:44 AM             2,288 div.html
+01/24/2017  04:51 PM    <DIR>          dojoassignments
+01/25/2017  04:48 PM    <DIR>          fakeblog
+01/24/2017  03:41 PM            10,953 Git Hub CMD.rtf
+01/23/2017  10:29 AM                13 hello_world.html
+01/23/2017  11:45 AM               195 indent1
+01/24/2017  08:35 AM             4,729 myform.html
+01/23/2017  04:43 PM             1,592 sample
+01/25/2017  11:40 AM             2,257 Slack.lnk
+01/24/2017  05:28 PM                29 sql.txt
+01/24/2017  01:53 PM               528 stylesheet.css
+01/18/2017  09:51 PM             1,856 SUPERAntiSpyware Free Edition.lnk
+01/25/2017  01:12 PM    <DIR>          tesst
+01/25/2017  01:25 PM    <DIR>          test
+01/25/2017  07:22 AM    <DIR>          webFun_jan_2017
+              13 File(s)         28,309 bytes
+               9 Dir(s)  936,688,443,392 bytes free
+
+C:\Users\Joseph Lindsey\Desktop>cd test
+
+C:\Users\Joseph Lindsey\Desktop\test>cd destination
+The system cannot find the path specified.
+
+C:\Users\Joseph Lindsey\Desktop\test>cd..
+
+C:\Users\Joseph Lindsey\Desktop>cd destination
+
+C:\Users\Joseph Lindsey\Desktop\destination>cd..
+
+C:\Users\Joseph Lindsey\Desktop>mkdir DojoAssignments
+A subdirectory or file DojoAssignments already exists.
+
+C:\Users\Joseph Lindsey\Desktop>cd DojoAssignments
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir GIT
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir HTML
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir CSS
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir WebFundamentals
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir Python
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir MEAN
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir Ruby
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir iOS
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir netCore
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd GIT
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\GIT>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\GIT>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd netCore
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd Ruby
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby>MEAN
+'MEAN' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd Ruby
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby>copy NUL about.txt
+Overwrite about.txt? (Yes/No/All): n
+        0 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby>cd ..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd MEAN
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\MEAN>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\MEAN>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd Python
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Python>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Python>cd ..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir WebFundamentals
+A subdirectory or file WebFundamentals already exists.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd WebFundamentals
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>mkdir netCore
+A subdirectory or file netCore already exists.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd netCore
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore>copy NUL about.txt
+Overwrite about.txt? (Yes/No/All): n
+        0 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore>cd cd ..
+The system cannot find the path specified.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore>cd ..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>cd WebFundamentals
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>mkdir GIT
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>mkdir HTML
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>mkdir CSS
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>mkdir Javascript
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>cd GIT
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\GIT>copy NUL about.txt
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\GIT>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>cd HTML
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML>mkdir CSS
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>cd Javascript
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\Javascript>copy NUL about.me
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\Javascript>cd..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>cd HTML
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML>copy NUL indentation.html
+        1 file(s) copied.
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML>cd,,
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML>cd ..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals>cd ..
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>dir/b/s
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\CSS
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\GIT
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\HTML
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\iOS
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\MEAN
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Python
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\config
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\description
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\info
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\objects
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\refs
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\applypatch-msg.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\commit-msg.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\post-update.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\pre-applypatch.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\pre-commit.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\pre-push.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\pre-rebase.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\pre-receive.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\prepare-commit-msg.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\hooks\update.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\info\exclude
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\objects\info
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\objects\pack
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\refs\heads
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\.git\refs\tags
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\GIT\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\MEAN\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\netCore\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Python\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\Ruby\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\CSS
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\GIT
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\Javascript
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\GIT\about.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML\CSS
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\HTML\indentation.html
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\WebFundamentals\Javascript\about.me
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.keep
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Adam_Melaku
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Bryson_Bowie
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Christopher_Anders
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Cody_Williams
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\css
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\delete_me.text
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\index.html
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\James_Kelley
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\John_Lee
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\JP_Lindsey
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Michael_Garza
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\stlye.css
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\style.css
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\vanessa_swarovski
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\William_Blackwell
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Yang_Lee
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\COMMIT_EDITMSG
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\config
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\description
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\FETCH_HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\index
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\info
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\ORIG_HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\packed-refs
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\applypatch-msg.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\commit-msg.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\post-update.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\pre-applypatch.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\pre-commit.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\pre-push.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\pre-rebase.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\pre-receive.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\prepare-commit-msg.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\hooks\update.sample
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\info\exclude
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\heads
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\remotes
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\heads\master
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\remotes\origin
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\remotes\upstream
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\remotes\origin\HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\remotes\origin\master
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\logs\refs\remotes\upstream\master
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\00
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\07
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\09
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\0c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\0e
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\10
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\11
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\12
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\1f
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\20
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\29
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\2a
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\32
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\36
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\39
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\3b
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\42
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\4a
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\4b
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\4c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\54
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\57
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\5b
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\6d
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\6e
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\74
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\79
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\7f
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\82
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\83
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\87
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\95
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\96
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\9c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\9e
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\b1
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\b9
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\c3
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ca
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ce
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\d0
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\d2
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\dc
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e1
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e3
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e6
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e8
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ea
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ec
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ee
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\f0
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\fd
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ff
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\info
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\pack
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\00\4e65e8a6e4ac15d24a595f6e082b6a2958cdf8
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\07\c661fe74198f71646c795af7eeea07a1902766
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\09\76f71b69ff4af2786b887be9765d48571f0a3a
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\0c\5f66b47fbd3f7a72d308932ce46b50e58068fe
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\0e\53b966d2b1a839ff9f1989b4623b95416e827b
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\10\a19c1adc13365294eb46e89748689ceac577c8
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\11\5a8db012bfa5fd29cf13152db5c80a4535ef7c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\12\d010dd7dd17346eced75a642bdb12c236c49d6
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\1f\fe503197a6db785c4badf9eda12aa6cf15cc9d
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\20\c14bf664aebb9946f4f1d428478585e9aeefd2
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\20\c884d4c6dbbf20382106e41d1b97f889270d2d
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\29\a422c19251aeaeb907175e9b3219a9bed6c616
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\2a\a891c75dfdac52695a6f4922ebcd4824092015
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\32\340c95a6be6098b6bf6c9b1262e302d298c7cc
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\36\95ff8fbc2a29264814bf4b38e7062129298b51
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\39\86ada05f96f5005121d2ab99cc6bffcb59e043
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\3b\18e512dba79e4c8300dd08aeb37f8e728b8dad
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\42\fb451bac038c1dba771db7f37a1827130ed84c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\4a\dbe68a6abab6f6724dfb89aa1145986283421d
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\4b\d1a4c59f38fdceabf0fdcb431e1b0521892d6f
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\4c\d6822fe019e251a97a93234f75bde22cccd1fb
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\54\4d5dd0a29d294ee2d5c0d8f9aed9fdba8f2189
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\57\4a1c7d28617b8d13fcf220ff59d2b3790731e4
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\57\4cc294cdcab5ccc3e8135de8752a333cdf6ea3
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\5b\19b0f23b6349ca38b02fd7e64ff0a6f47ec50b
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\5b\b4e7c5e474ff664a1afc922cd144c7188ddfc3
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\6d\2d641119078b629242af9ba35782093494539d
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\6e\155de48f12ee81f7693ec3634f612fe541e0bd
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\74\5c04a63fb2f7e782a23ad2b6ad3a0c849d4a18
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\79\ee27ea6232e19f70591cea910f3b5005fb9c5a
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\7f\727cdd93d534b74fcdf8e7d7c9594d7d2cd126
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\82\269e38aae2af7d3b78e2ce19ad6b1667ec32af
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\83\28b0d10f8fec31c25d351376c294d6c41dcd88
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\87\b7368e0e6f7cb56de28a377a9f6f56adfa8b27
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\87\ca7813dd268d65dcaa599a8d84470351ce6811
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\95\5826de5c14c7c46ba9f27aad7c695dbdb5c476
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\95\d09f2b10159347eece71399a7e2e907ea3df4f
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\96\f173a42c08a7d93b5ac4e4bb1879b8eff1ad85
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\9c\ce459ea7ecabbba38ac6b153cf44635826c0af
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\9e\a7307221ca991666fecfcc4d3c95f04423192c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\b1\8c256948345a30b568711cf0d25c53e583720c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\b9\8cff3f928625e402f8bbd5751e001bc6c5694c
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\b9\8da7de83d2b185696654cba7bdbc2be78b3c1e
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\c3\e2c404204d274c2ea1fe55f4dd4b254efbe039
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ca\68916f98788fb93138f278cd05a3c36df3bdbd
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ce\8001d547446b0ec086429f5f5b5ec7fa522ea4
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\d0\ed8322109d09c910e5022b02c037d8b15620b6
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\d2\5170e550af3b0cf2932f9d2086f0a8f660d162
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\d2\dc5f39d5dc0a33eebffb582b8f51e6c22831d1
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\dc\327a83576677eb3d2cad6c17cdd579b1c83dfe
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e1\d710cb0a29e37e2729d0d652a5ddd7cebe86fb
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e3\02debef48bf2d892d18ea29a84d8056d947f43
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\e8\5a6c42f78b20618bdb3f1a297615ea1b3dd3fa
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ea\33e50766e3ee265898b3a43bfd3c0d6e770888
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ec\33f1411229c0f077622a0c97bce6fce92773d3
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ee\d85bba204e88f77adc5508fd5ec998399ecc87
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\f0\44e1c3a99fbf6e678fc399cf094435decf9479
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\f0\bf1fd49046a5a40bcebb5c286fc325924fbd5e
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\fd\2a0368d9d6ac42960dad8c55f4f09eec5373fb
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\objects\ff\46f55ec679bb30e1b2291bf56558ec435b1df3
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\heads
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\remotes
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\tags
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\heads\master
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\remotes\origin
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\remotes\upstream
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\remotes\origin\HEAD
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\remotes\origin\master
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\.git\refs\remotes\upstream\master
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Adam_Melaku\delete.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Bryson_Bowie\delete.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Christopher_Anders\.keep
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Cody_Williams\deleteme.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Cody_Williams\index.html
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\James_Kelley\deleteme.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\John_Lee\assignments.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\John_Lee\commands.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\JP_Lindsey\.keep
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\JP_Lindsey\delete.txt
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Michael_Garza\.keep
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\vanessa_swarovski\.keep
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\William_Blackwell\.keep
+C:\Users\Joseph Lindsey\Desktop\dojoassignments\webFun_jan_2017\Yang_Lee\.keep
+
+C:\Users\Joseph Lindsey\Desktop\dojoassignments>

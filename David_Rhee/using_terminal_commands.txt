@@ -1,0 +1,32 @@
+Last login: Mon Jan 23 16:44:50 on ttys000
+Davids-MacBook-Air:~ davidrhee$ ls
+Applications	Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		VirtualBox VMs
+Davids-MacBook-Air:~ davidrhee$ xd desktop
+-bash: xd: command not found
+Davids-MacBook-Air:~ davidrhee$ cd desktop
+Davids-MacBook-Air:desktop davidrhee$ mkdir Test
+Davids-MacBook-Air:desktop davidrhee$ cd test
+Davids-MacBook-Air:test davidrhee$ touch index.html
+Davids-MacBook-Air:test davidrhee$ touch style.css
+Davids-MacBook-Air:test davidrhee$ touch command.txt
+Davids-MacBook-Air:test davidrhee$ mv index.html index_2.html
+Davids-MacBook-Air:test davidrhee$ rm style.css
+Davids-MacBook-Air:test davidrhee$ cd desktop
+-bash: cd: desktop: No such file or directory
+Davids-MacBook-Air:test davidrhee$ ls
+command.txt	index_2.html
+Davids-MacBook-Air:test davidrhee$ cd desktop
+-bash: cd: desktop: No such file or directory
+Davids-MacBook-Air:test davidrhee$ pwd
+/Users/davidrhee/desktop/test
+Davids-MacBook-Air:test davidrhee$ cd
+Davids-MacBook-Air:~ davidrhee$ cd desktop
+Davids-MacBook-Air:desktop davidrhee$ mkdir destination
+Davids-MacBook-Air:desktop davidrhee$ mv index_2.html../destination/index_2.html
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Davids-MacBook-Air:desktop davidrhee$ mv index_2.html../destination/index_2.html
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Davids-MacBook-Air:desktop davidrhee$ rm -rf destination
+Davids-MacBook-Air:desktop davidrhee$

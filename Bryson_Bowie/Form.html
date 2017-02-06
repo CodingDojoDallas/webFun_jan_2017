@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Regestration Form</title>
+  </head>
+  <body>
+    <h1>My Regestration Form</h1>
+    <form action="index.html" method="post">
+      <p>First Name</p>
+        <label>
+        <input type="text" name="First Name">
+        </label>
+      <p>Last Name</p>
+        <label>
+        <input type="text" name="Last Name">
+        </label>
+      <p>Email</p>
+        <label>
+        <input type="text" name="Email">
+        </label>
+      <p>Password</p>
+        <label>
+        <input type="password" name="Password">
+        </label>
+      <p>PW Confirm</p>
+        <label>
+        <input type="password" name="PW Confirm">
+        </label>
+      <p>Birthday</p>
+        <label>
+        <input type="date" name="Birthday">
+        </label>
+      <div class="Middle">
+        <label for="Male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="Male">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="Male">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+      </div>
+
+      <div class="Bottom">
+        <p>
+        A short description about yourself
+        </p>
+        <textarea name="About You" rows="8" cols="40"></textarea>
+      </div>
+      <div class="RockBottom">
+        <p>Favorite Language  <select name="Favorite Language"></p>
+          <option value="Javascript">Javascript</option>
+          <option value="MVC">MVC</option>
+          <option value="Swift">Swift</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="submit">
+      </div>
+    </form>
+  </body>
+</html>

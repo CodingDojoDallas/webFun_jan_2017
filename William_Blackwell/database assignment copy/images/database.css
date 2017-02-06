@@ -1,0 +1,13 @@
+#wrapper {
+	width: 970px;
+	height: 1000px;
+	background: radial-gradient(ellipse at center, #6d5967 0%,#0e0e0e 71%); 
+	padding: 0px;
+	margin: 0 auto;
+}
+#header {
+	width: 970px;
+	height: 80px;
+	background: linear-gradient(to bottom, #f1f2ef 0%,#ffffff 71%);
+
+}

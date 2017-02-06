@@ -1,0 +1,103 @@
+Last login: Mon Jan 23 21:55:31 on ttys001
+Canvass-MacBook-Pro:~ Canvas$ cd Desktop
+Canvass-MacBook-Pro:Desktop Canvas$ mkdir DojoAssignments
+Canvass-MacBook-Pro:Desktop Canvas$ cd DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ mkdir WebFundamentals Python MEAN Ruby iOS netCore
+Canvass-MacBook-Pro:DojoAssignments Canvas$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Canvass-MacBook-Pro:DojoAssignments Canvas$ touch about.txt MEAN Ruby iOS PythonWebFundamentals netCore
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd MEAN
+Canvass-MacBook-Pro:MEAN Canvas$ touch about.txt
+Canvass-MacBook-Pro:MEAN Canvas$ cd Ruby
+-bash: cd: Ruby: No such file or directory
+Canvass-MacBook-Pro:MEAN Canvas$ clear
+
+
+
+
+
+
+
+
+Canvass-MacBook-Pro:MEAN Canvas$ cd .. DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd .. Desktop
+Canvass-MacBook-Pro:Desktop Canvas$ rm -rf DojoAssignments
+Canvass-MacBook-Pro:Desktop Canvas$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Canvass-MacBook-Pro:Desktop Canvas$ mkdir DojoAssignments
+Canvass-MacBook-Pro:Desktop Canvas$ cd DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ mkdir WebFundamentals Python MEAN Ruby iOS netCore
+Canvass-MacBook-Pro:DojoAssignments Canvas$ ls
+MEAN		Ruby		iOS
+Python		WebFundamentals	netCore
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd MEAN
+Canvass-MacBook-Pro:MEAN Canvas$ touch about.txt
+Canvass-MacBook-Pro:MEAN Canvas$ cd ..DojoAssignments
+-bash: cd: ..DojoAssignments: No such file or directory
+Canvass-MacBook-Pro:MEAN Canvas$ cd .. DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd Ruby
+Canvass-MacBook-Pro:Ruby Canvas$ touch about.txt
+Canvass-MacBook-Pro:Ruby Canvas$ cd .. DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd iOS
+Canvass-MacBook-Pro:iOS Canvas$ touch about.txt
+Canvass-MacBook-Pro:iOS Canvas$ cd .. DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd Python
+Canvass-MacBook-Pro:Python Canvas$ touch about.txt
+Canvass-MacBook-Pro:Python Canvas$ cd .. Dojo Assigments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd WebFundamentals
+Canvass-MacBook-Pro:WebFundamentals Canvas$ touch about.txt
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd .. DojoAssigments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd netCore
+Canvass-MacBook-Pro:netCore Canvas$ touch about.txt
+Canvass-MacBook-Pro:netCore Canvas$ cd .. DojoAssignments
+Canvass-MacBook-Pro:DojoAssignments Canvas$ cd WebFundamentals
+Canvass-MacBook-Pro:WebFundamentals Canvas$ mkdir Git HTML CSS Javascript
+Canvass-MacBook-Pro:WebFundamentals Canvas$ ls
+CSS		Git		HTML		Javascript	about.txt
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd CSS
+Canvass-MacBook-Pro:CSS Canvas$ touch about.txt
+Canvass-MacBook-Pro:CSS Canvas$ cd .. WebFundamentals
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd Git
+Canvass-MacBook-Pro:Git Canvas$ touch about.txt
+Canvass-MacBook-Pro:Git Canvas$ cd .. WebFundamentals
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd HTML
+Canvass-MacBook-Pro:HTML Canvas$ touch about.txt
+Canvass-MacBook-Pro:HTML Canvas$ cd .. WebFundamentals
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd Javasript
+-bash: cd: Javasript: No such file or directory
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd Javascript
+Canvass-MacBook-Pro:Javascript Canvas$ touch about.txt
+Canvass-MacBook-Pro:Javascript Canvas$ cd .. WebFundamentals
+Canvass-MacBook-Pro:WebFundamentals Canvas$ ls
+CSS		Git		HTML		Javascript	about.txt
+Canvass-MacBook-Pro:WebFundamentals Canvas$ cd HTML
+Canvass-MacBook-Pro:HTML Canvas$ touch indentation.html
+Canvass-MacBook-Pro:HTML Canvas$ ls
+about.txt		indentation.html
+Canvass-MacBook-Pro:HTML Canvas$ ls -R
+about.txt		indentation.html
+Canvass-MacBook-Pro:HTML Canvas$ Is -R
+-bash: Is: command not found
+Canvass-MacBook-Pro:HTML Canvas$ ls -R
+about.txt		indentation.html
+Canvass-MacBook-Pro:HTML Canvas$ 
