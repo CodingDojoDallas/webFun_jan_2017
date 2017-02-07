@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery Functions Assignment</title>
+	<link rel="stylesheet" type="text/css" href="jquery_functions_assignment.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#add_class").click(function(){
+			// alert("it works!");
+			$("#add_class_p").addClass("red");
+		});
+		$("#stoggle_btn").click(function(){
+			$("#stoggle_p").slideToggle();
+		});
+		$("#append_btn").click(function(){
+			$("#append_btn").append(" AND GOODBYE");
+		});
+		$("#click_btn").click(function(){
+			$("click_btn").click();
+		});
+		$("#toggle_btn").click(function(){
+			$("#toggle_p").toggle();
+		});
+		$("#fadein_btn").click(function(){
+			$("#fadein_p").fadeIn("slow");
+		});
+		$("#fadeout_btn").click(function(){
+			$("#fadeout_p").fadeOut("slow");
+		});
+		$("#before_btn").click(function(){
+			$("#before_p").before("<p id=\"ptest\">TEST</p>"); //escape character used to isolate the ""marks. Can add class in parameters area
+		});
+		$("#after_btn").click(function(){
+			$("#after_p").after("<p id=\"ptest\">TEST</p>");
+		});
+		$("#hide_btn").click(function(){
+			$("#hide_p").hide("show");
+		});
+
+
+
+	});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<h1>My JQuery Basic Assignment!</h1>
+	</div>
+	<div class="box">
+		<button id="add_class" type="button">Click Me To Add Class!</button>
+		<h3>.addClass() function</h3>
+		<p id="add_class_p">Click the button to add class "red" to this paragraph</p>
+	</div>
+
+	<div class="box">
+		<button id="stoggle_btn" type="button">Click Me To Slide Toggle!</button>
+		<h3>.slideToggle() function</h3>
+		<p id="stoggle_p">Click the button to slide toggle this paragraph</p>
+	</div>
+
+	<div class="box">
+		<button id="append_btn" type="button">HELLO!</button>
+		<h3>.append() function</h3>
+		<p>Click the button to see the .append() work!</p>
+	</div>
+
+	<div class="box">
+		<button id="click_btn"type="button">Click Me To see .click work!</button>
+		<h3>.click() function</h3>
+		<p>Click the button to see how .click() works.</p>
+	</div>
+		<div class="box">
+		<button id="toggle_btn"type="button">Click Me To .toggle().</button>
+		<h3>.toggle() function</h3>
+		<p id= "toggle_p"> Click the button to see the .toggle function work.It shows or hides a property</p>
+	</div>
+		<div class="box">
+		<button id="fadein_btn"type="button">Click Me To see .fadeIn() work!</button>
+		<h3>.fadeIn () function</h3>
+		<p id="fadein_p"> Click the button to To see .fadeIn() work!</p>
+		<p> this function requires to have display:none in css first</p>
+		<p> to allow for the fade in to work</p>
+	</div>
+		<div class="box">
+		<button id="fadeout_btn" type="button">Click Me To .fadeOut()!</button>
+		<h3>.fadeOut function</h3>
+		<p id="fadeout_p">Click the button to see how .fadeOut() works</p>
+	</div>
+		<div class="box">
+		<button id="before_btn"type="button">Click Me To see the .before()!</button>
+		<h3>.before() function</h3>
+		<p id="before_p">Click the button to see the .before() work!</p>
+	</div>
+		<div class="box">
+		<button id="after_btn" type="button">Click Me To see the .after() work</button>
+		<h3>.after() function</h3>
+		<p id="after_p">Click the button to see the .after() work. </p>
+	</div>
+		<div class="box">
+		<button id="hide_btn" type="button">Click Me To hide!</button>
+		<h3>.hide() function</h3>
+		<p id="hide_p">Click the button to hide this paragraph!</p>
+	</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+		<div class="box">
+		<button type="button">Click Me To Add Class!</button>
+		<h3>addClass function</h3>
+		<p>Click the button to add class "red" to theis paragraph</p>
+	</div>
+
+</body>
+</html>
