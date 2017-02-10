@@ -1,0 +1,31 @@
+.container {
+	background-color: pink;
+}
+.box{
+	border: 7px solid;
+	padding: 20px;
+	background-color: #eee;
+	display: inline-block;
+
+}
+.box button {
+
+}
+.box h3 {
+
+}
+.box p {
+
+}
+.red{
+	color: red;
+}
+#fadein_p{
+	display:none;
+}
+#ptest {
+	color: red;
+	font-weight: bold;
+	font-size: 22px;
+
+}
