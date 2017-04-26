@@ -8,7 +8,15 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Blogs</h2>
                     <hr class="light">
-                   
+
+                    {% for blog in blogs %}
+                		  <a href="{{ blog_id }}/">
+                    		<div>
+                    			<p>{{ blog.title }}</p>
+                    			<img src="{{ blog.image }}" width="150" />
+                    		</div>
+                    	  </a>	
+                    {% endfor %}
                 </div>
             </div>
         </div>
