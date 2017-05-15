@@ -1,0 +1,18 @@
+var num1= 20;
+var num2= 30;
+var num3= 50;
+var num4= 70;
+var cityName1="Moscow";
+var cityName2="Buenos Aires";
+var cityName3="Singapore";
+var walkHome = false;
+var takeDart= true;
+var cat;
+console.log(num2);
+console.log(takeDart);
+console.log(cityName3);
+console.log(num3);
+console.log(walkHome);
+console.log(num2);
+console.log(num1);
+console.log(num2);
