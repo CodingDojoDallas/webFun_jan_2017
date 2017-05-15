@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="gameofthrones.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		var base_url='http://anapioficeandfire.com/api/houses/'
+		$('img').click(function(){
+			$.get(base_url + $(this).attr('abc'), function(res){
+				console.log(res.name)
+			$('.description').html('<h1>' + 'Name' + '</h1>');
+			$('.description').append('<h4>' + res.name + '</h4>');
+			$('.description').append('<h3>' + 'Words' + '</h3>');
+			$('.description').append('<h4>' + res.words + '</h4>');
+			$('.description').append('<h3>' + 'Titles' + '</h3>');
+			$('.description').append('<h4>' + res.titles + '</h4>');
+			}, 'json');
+		});
+	});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<img abc='362' src="stark.jpg" alt="Could Not Load Image"><!--
+		--><img abc=222 src="targaryen.jpg" alt="Could Not Load Image"><!--
+		--><img abc= '328' src="lannister.jpg" alt="Could Not Load Image"><!--
+		--><img abc='128' src="baratheon.png" alt="Could Not Load Image">
+			<div class='description'></div>
+		</div>
+	</body>

@@ -1,0 +1,27 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family:sans-serif;
+}
+body {
+	background:white;
+}
+.wrapper{
+	width: 970px;
+	height: 900px;
+	margin: 0 auto;
+	background:linear-gradient(#E3E3E3,#FFFFFF,#FFFFFF);
+	justify-content: center;
+	align-items:center;
+}
+img{
+	display:inline-block;
+	height:150px;
+	width:242.5px;
+}
+.description{
+	height:500px;
+	width:750px;
+	background:gray;
+	margin-left: 110px;
+}

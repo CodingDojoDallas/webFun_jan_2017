@@ -1,0 +1,69 @@
+
+<!-- saved from url=(0060)file:///C:/Users/Kyle%20Stainsby/Documents/users_jquery.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<script src="./users_jquery_files/jquery.min.js.download"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				var first_name = $('input[name=first_name]').val()
+				var last_name = $('input[name=last_name]').val()
+				var email = $('input[name=email]').val()
+				var phone = $('input[name=phone]').val()
+
+				var html_str = '';
+				html_str += '<tr>';
+				html_str += '<td>' + first_name + '</td>';
+				html_str += '<td>' + last_name +'</td>';
+				html_str += '<td>' + email +'</td>';
+				html_str += '<td>' + phone +'</td>';
+				html_str += '</tr>';
+				$('table').append(html_str);
+
+				});
+			});
+
+	</script>
+	</head><body>
+		<table>
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email Address</th>
+					<th>Contact #</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr><tr><td>dave</td><td>davison</td><td>@mailison.dave</td><td>834798475345</td></tr><tr><td>dsf</td><td>naldsfk</td><td>@mailison.daeye</td><td>0947534753409</td></tr></tbody>
+		</table>
+			<h1>Add User</h1>
+			<ul>
+					<li>
+						<label>First Name:
+							<input class="first_name" type="text" name="first_name" placeholder="First Name">
+						</label>
+					</li>
+					<li>
+						<label>Last Name:
+							<input "last_name"="" type="text" name="last_name" placeholder="Last Name">
+						</label>
+					</li>
+					<li>
+						<label>Email Address:
+							<input type="text" name="email" placeholder="Email">
+						</label>
+					</li>
+					<li>
+						<label>Contact #:
+							<input type="text" name="phone" placeholder="Phone #">
+						</label>
+					</li>
+			</ul>
+			<button>Add User</button>
+	
+</body></html>

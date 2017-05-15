@@ -1,0 +1,169 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#background{
+position:absolute;
+background-color:white;
+}
+#wrapper{
+ width: 970px;
+	margin: 0 auto;
+ background-color: rgb(54, 83, 130);
+ justify-content: center;
+ align-items:center;
+}
+body {
+	background:white;
+}
+#logo{
+	display:inline-block;
+}
+#txtsize{
+	display:inline-block;
+	position: relative;
+	bottom:140px;
+	left:150px;
+
+
+}
+#search{
+	display:inline-block;
+	background-color:rgb(61,65,71);
+	height: 65px;
+	width:250px;
+	border-radius:15px;
+	position:relative;
+	bottom:120px;
+	right:-650px;
+}
+#searchbox{
+	position: relative;
+	bottom:-20px;
+	left:30px;
+}
+#navigation{
+	display:inline-block;
+	width:800px;
+	height: 55px;
+	border-radius:15px;
+	background:rgb(64,120,209);
+	position:relative;
+	bottom: 60px;
+	left:80px;
+
+
+}
+#navigation_list{
+display:inline;
+font-size:20px;
+margin:20px;
+color:white;
+position:relative;
+top:7px;
+
+
+
+}
+#lista{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	position:relative;
+	right:-100px;
+	top:-35px;
+}
+#toptext{
+	color:white;
+	text-align:center;
+	display:inline-block;
+	font-size:15px;
+	width:600px;
+	height:30px;
+	position:relative;
+	top:-225px;
+	right:-280px;
+}
+#yellow{
+
+	text-align:center;
+	list-style-type: none;
+	font-size:20px;
+	display:inline-block;
+	height: 190px;
+	width: 300px;
+	position:relative;
+	right:-430px;
+	top:-170px;
+
+}
+#rltxtsize{
+	display:inline
+}
+#white_bar{
+height:230px;
+width:970px;
+background-color: white;
+position:relative;
+top:-180px;
+
+}
+.yellowunderline{
+color:yellow;
+text-decoration:underline;
+margin:10px;
+}
+.underline{
+text-decoration:underline;
+font-size:18;
+margin:5px;
+
+}
+.italic{
+
+}
+.white{
+color:white;
+}
+.yellow_list
+{
+	color:yellow;
+
+}
+h4{
+	margin:10px;
+}
+.left_section{
+	text-align:center;
+	display:inline-block;
+	height:230px;
+	width:400px;
+	position:relative;
+	top:-36px
+}
+.right_section{
+	text-align:center;
+	display:inline-block;
+	height:230px;
+	width:400px;
+}
+.bottom_paragraph{
+	text-align:center;
+
+}
+.blue{
+	color:blue;
+	style-position:inside;
+}
+#bottomtxt{
+	color:blue;
+	list-style:none;
+	position: relative;
+	top:-90px
+}
+.finallist{
+	display: inline;
+	font-size:25px;
+	margin:30px;
+}
+}
