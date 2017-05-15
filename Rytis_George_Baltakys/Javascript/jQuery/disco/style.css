@@ -1,0 +1,35 @@
+/*CSS reset settings here*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom, #7675c8, #b6c8d9);
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 20px;
+}
+
+.divx {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 1px;
+}
+
+#boxes {
+	margin: 20px;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+}

@@ -1,0 +1,3 @@
+Contact Card assigment on Git Hub:
+
+https://github.com/livelite/webFun_jan_2017/tree/Rytis_George_Baltakys_02-01-2017_21.22/Rytis_George_Baltakys/Javascript/jQuery/contactCard
