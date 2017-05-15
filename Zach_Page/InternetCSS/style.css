@@ -1,0 +1,140 @@
+#topPanel {
+
+}
+#globe {
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+}
+body {
+  font-family: sans-serif;
+}
+div {
+  height: 120px;
+}
+div p {
+  display: inline-block;
+  font-size: 250%;
+  margin: 0px;
+}
+div p span {
+  color: cornflowerblue;
+}
+h2 {
+  background-color: navy;
+  padding: 15px;
+  margin-top: -25px;
+}
+ul {
+  list-style: none;
+}
+#leftPanel{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+#leftPanel a {
+  border: 2px solid purple;
+  border-radius: 10px;
+  background-color: orange;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  color: white;
+}
+#leftPanel div {
+  top: 900px;
+}
+#leftPanel span{
+  color: blue;
+}
+#leftPanel ul li {
+  margin: 20px;
+}
+#leftPanel ul li div a {
+
+}
+
+#ninja {
+  width:100%;
+}
+#subPanel {
+  font-size: 400%;
+  text-align: center;
+  color: white;
+  width: 100%;
+  background-image: url("images/ad_background.png");
+}
+#subPanel a{
+  color: white;
+}
+#rightPanel {
+  width: 74%;
+  display: inline-block;
+}
+#rightPanel li {
+  display: inline-block;
+}
+#rightPanel hr {
+  border-color: blue;
+  border-width: 2px;
+  display: block;
+}
+#contentHead {
+  display: inline;
+}
+#contentHead p {
+  font-size: 100%;
+}
+#contactInfo li{
+  display: block;
+  font-size: 80%;
+}
+
+#home {
+  height: 20px;
+  width: 20px;
+}
+#phone {
+  height: 40px;
+  margin-left: 650px;
+}
+
+li #phoneNum {
+  font-size: xx-large;
+  color: aqua;
+  font-weight: bold;
+}
+#lastCell {
+  border: 4px solid blue;
+  display: inline-block;
+}
+#lastCell h4 {
+  display: inline;
+  margin: 15px;
+}
+#lastCell ul {
+  display: inline;
+  vertical-align: top;
+}
+#lastCell ul li {
+  vertical-align: top;
+  display: inline-block;
+  width: 80%;
+}
+#lastCell div{
+  display: inline-block;
+}
+#lastCell p{
+  font-size: 100%;
+  margin: 5px;
+  margin-left: 15px;
+}
+#lastCell a {
+  color: aqua;
+}
+#bigThree {
+  width: 120px;
+
+}

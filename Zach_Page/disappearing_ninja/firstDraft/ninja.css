@@ -1,0 +1,47 @@
+#wrapper {
+	width: 1600px;
+	height: 900px;
+}
+#box {
+	width:300px;
+	height: 200px;
+	background-color: gray;
+	border:2px solid lightgrey;
+	border-radius: 10px;
+	padding:0px;
+	margin:400px auto;
+}
+#box2 {
+	width:300px;
+	height: 200px;
+	background-color: gray;
+	border:2px solid lightgrey;
+	border-radius: 10px;
+	padding:0px;
+	margin:400px auto;
+}
+body {
+	background-color: black;
+}
+h1 {
+	text-align: center;
+}
+button {
+	margin-left: 32px;
+	width:100px;
+	margin-bottom: 70px;
+}
+a {
+	margin-left: 225px;
+}
+select {
+	margin-left: 32px;
+	width:100px;
+	margin-bottom: 70px;
+
+}
+
+img {
+	width: 250px;
+	margin: 0 16.55%;
+}
