@@ -1,0 +1,38 @@
+#wrapper {
+	height: 665px;
+	width: 700px;
+	margin: 0px auto;
+	background-color: #CFCBA5;
+}
+#wrapper img {
+	height: 50px;
+	width: 100px;
+}
+#header {
+	display: inline-block;
+	padding-top: 30px;
+	margin-left: 110px;
+}
+h1 {
+	display: inline-block;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+#main_blocks img {
+	height: 125px;
+	width: 125px;
+	display: inline-block;
+	border: 3px solid black;
+
+
+
+}
+#main_blocks {
+	margin-left: 15px;
+}
+.red {
+	background-color: #F25D65;
+}
+img {
+	background-color: white;
+}
