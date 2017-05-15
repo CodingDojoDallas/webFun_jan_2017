@@ -1,0 +1,47 @@
+body {
+     font-family: sans-serif;
+     text-align: center;
+     background: url("img/freshprince.jpg");
+     background-size: 100%;
+}
+
+
+.box {
+     width: 460px;
+     margin: 80px auto;
+     padding: 20px;
+     background-color: rgba(150, 150, 150, 0.5);
+     border-radius: 20px;
+}
+
+button {
+     display: inline-block;
+     font-size: 20px;
+     width: 180px;
+     padding: 15px;
+     margin: 15px;
+}
+
+#next {
+     color: lightblue;
+     text-decoration: underline;
+     margin-left: 60%;
+}
+
+select {
+     font-size: 20px;
+     width: 150px;
+     margin: 20px;
+}
+
+.player1 {
+     width: 200px;
+     margin-right: 200px;
+     display: inline-block;
+}
+
+.player2 {
+     width: 200px;
+     margin-left: 200px;
+     display: inline-block;
+}
