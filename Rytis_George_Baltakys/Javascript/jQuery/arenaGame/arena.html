@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+
+          <meta charset="utf-8">
+          <title>Arena</title>
+          <link rel="stylesheet" href="arena.css">
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script type="text/javascript">
+
+               $(document).ready(function() {
+                    $('#box2').hide();
+
+                    $("button[name='beach']").click(function() {
+                         $('body').css('background', 'url("img/beach.jpg")').css('background-size', '100%');
+                    });
+
+                    $("button[name='mars']").click(function() {
+                         $('body').css('background', 'url("img/mars.jpg")').css('background-size', '100%');
+                    });
+
+                    $("button[name='finalDestination']").click(function() {
+                         $('body').css('background', 'url("img/final.jpg")').css('background-size', '100%');
+                    });
+
+                    $("button[name='desert']").click(function() {
+                         $('body').css('background', 'url("img/desert.jpg")').css('background-size', '100%');
+                    });
+
+                    $('#next').click(function() {
+                         $('#box1').hide();
+                         $('#box2').fadeIn();
+                    });
+
+                    $('#select1').change(function() {
+                         if ($(this).val() == 'gary') {
+                              $('.player1').html('<img src="img/gary.gif">');
+                              $('.player1 img').css('width', '120%')
+                         }
+                         else if ($(this).val() == 'spongebob') {
+                              $('.player1').html('<img src="img/spongebob.gif">');
+                              $('.player1 img').css('width', '120%')
+                         }
+                         else if ($(this).val() == 'kerrigan') {
+                              $('.player1').html('<img src="img/kerr.png">');
+                              $('.player1 img').css('width', '200%')
+                         }
+                         else if ($(this).val() == 'tassadar') {
+                              $('.player1').html('<img src="img/tass.png">');
+                              $('.player1 img').css('width', '120%')
+                         }
+                    });
+
+                    $('#select2').change(function() {
+                         if ($(this).val() == 'gary') {
+                              $('.player2').html('<img src="img/gary.gif">');
+                              $('.player2 img').css('width', '120%')
+                         }
+                         else if ($(this).val() == 'spongebob') {
+                              $('.player2').html('<img src="img/spongebob.gif">');
+                              $('.player2 img').css('width', '120%')
+                         }
+                         else if ($(this).val() == 'kerrigan') {
+                              $('.player2').html('<img src="img/kerr.png">');
+                              $('.player2 img').css('width', '200%')
+                         }
+                         else if ($(this).val() == 'tassadar') {
+                              $('.player2').html('<img src="img/tass.png">');
+                              $('.player2 img').css('width', '120%')
+                         }
+                    });
+
+               });
+          </script>
+
+     </head>
+
+     <body>
+
+          <div class="box" id="box1">
+
+               <h1>Select Arena</h1>
+
+               <button type="button" name="beach">Beach</button>
+               <button type="button" name="desert">Desert</button>
+               <div class=""></div>
+               <button type="button" name="mars">Mars</button>
+               <button type="button" name="finalDestination">Final Destination</button>
+
+               <span id="next">Next!!!!!!!</span>
+
+          </div>
+
+          <div class="box" id="box2">
+
+               <h1>Select Players</h1>
+
+               <select id="select1" name="">
+                    <option value=""></option>
+                    <option value="gary">Gary</option>
+                    <option value="kerrigan">Kerrigan</option>
+                    <option value="tassadar">Tassadar</option>
+                    <option value="spongebob">Spongebob</option>
+               </select>
+
+               <select id="select2" name="">
+                    <option value=""></option>
+                    <option value="gary">Gary</option>
+                    <option value="kerrigan">Kerrigan</option>
+                    <option value="tassadar">Tassadar</option>
+                    <option value="spongebob">Spongebob</option>
+               </select>
+
+          </div>
+
+          <div class="player1"></div>
+
+          <div class="player2"></div>
+
+     </body>
+
+</html>
