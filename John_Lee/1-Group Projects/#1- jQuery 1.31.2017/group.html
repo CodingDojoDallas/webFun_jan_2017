@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="gstyle.css">
+    <title>Battleground</title>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type='text/javascript'>
+      $(document).ready(function(){
+        $("#Dojo").click(function(){
+          $('#Dojo').parents('#wrapper').css('background-image', 'url("dojo.jpg")')
+          });
+        $("#Beach").click(function(){
+          $('#Beach').parents('#wrapper').css('background-image', 'url("beach.jpg")')
+          });
+        $("#Castle").click(function(){
+          $('#Castle').parents('#wrapper').css('background-image', 'url("castle.jpg")')
+          });
+        $('#y1').click(function(){
+          $('#sy').show("slow",function(){
+              });
+          });
+        $('#b1').click(function(){
+          $('#sb').show("slow",function(){
+              });
+          });
+        $('#g1').click(function(){
+          $('#sg').show("slow",function(){
+              });
+          });
+          $('#y2').click(function(){
+            $('#sy1').show("slow",function(){
+                });
+            });
+          $('#b2').click(function(){
+            $('#sb2').show("slow",function(){
+                });
+            });
+          $('#g2').click(function(){
+            $('#sg2').show("slow",function(){
+                });
+            });
+          $('#next').click(function(){
+            $("#inner2").show("slow",function(){
+            });
+            $("#inner").hide("slow",function(){
+            });
+          });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="left">
+        <img id="sy" src="yellow.jpeg" alt="" width="200" height="300">
+        <img id="sb" src="black.png" alt="" width="200" height="300">
+        <img id="sg" src="green.jpeg" alt="" width="200" height="300">
+      </div>
+      <div id="middle">
+        <div id="inner">
+          <h2>Select Arena</h2>
+          <button id="Dojo">Dojo</button>
+          <button id="Beach">Beach</button>
+          <button id="Castle">Castle</button>
+          <button id="next">Next>></button>
+        </div>
+        <div id="inner2">
+          <h2>Select Players</h2>
+          <h3>Player 1</h3>
+          <button id="y1">Yellow</button>
+          <button id="b1">Black</button>
+          <button id="g1">Green</button>
+          <h3>Player 2</h3>
+          <button id="y2">Yellow</button>
+          <button id="b2">Black</button>
+          <button id="g3">Green</button>
+          <!-- <ul>
+            <li>
+              <select id="select_1">
+                <option>&nbsp</option>
+                <option id="y1" value="yellow">Yellow Ninja</option>
+                <option id="b1" value="black">Black Ninja</option>
+                <option id="g1" value="green">Green Ninja</option>
+              </select>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <select id="select_2">
+                <option>&nbsp</option>
+                <option id="y2" value="yellow">Yellow Ninja</option>
+                <option id="b2" value="black">Black Ninja</option>
+                <option id="g2" value="green">Green Ninja</option>
+              </select>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+      <div id="right">
+        <img id="sy2" src="yellow.jpeg" alt="" width="200" height="300">
+        <img id="sb2" src="black.png" alt="" width="200" height="300">
+        <img id="sg2" src="green.jpeg" alt="" width="200" height="300">
+      </div>
+    </div>
+  </body>
+
+</html>

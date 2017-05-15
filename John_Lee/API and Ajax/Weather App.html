@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Weather App</title>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script type='text/javascript'>
+      var baseurl = 'http://api.openweathermap.org/data/2.5/weather?q='
+      var app = '&APPID=0c5bc97fd55fbde2ba554edfae7a1ccf'
+      $(document).ready(function() {
+        $('button').click(function() {
+            $('input[name=city]').val();
+            var inputcity = $('input[name=city]').val();
+            $('body').append('<h2>'+ inputcity + '</h2>');
+            $.get(baseurl+inputcity+app,function(res){
+              var temperature = Math.floor(res.main.temp*(9/5) - 459.67)
+              $('body').append("<h2>" +"Temperature: " + temperature + " &#x2109;" + "</h2>");
+            }, 'json');
+
+            return false;
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <input type='text' name='city'>
+      </input>
+      <button>Search Weather</button>
+    </form>
+  </body>
+
+</html>
